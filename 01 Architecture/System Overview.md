@@ -57,8 +57,8 @@ flowchart TD
 
 ## Documentation boundary
 
-The architecture chapters describe how the platform should be reasoned about. [[Flow Catalogue]] describes what is actually implemented or proposed. A design appearing here does not prove that a Homey flow is deployed.
+The architecture chapters describe how the platform should be reasoned about. [Flow Catalogue](../05%20Homey/Flow%20Catalogue.md) describes what is actually implemented or proposed. A design appearing here does not prove that a Homey flow is deployed.
 
 ## Related
 
-[[The Home Intelligence Platform]] · [[Stateful Automation Architecture]] · [[Technology Stack]] · [[Network Topology]] · [[ADR Index]]
+[The Home Intelligence Platform](The%20Home%20Intelligence%20Platform.md) · [Stateful Automation Architecture](Stateful%20Automation%20Architecture.md) · [Technology Stack](Technology%20Stack.md) · [Network Topology](Network%20Topology.md) · [ADR Index](ADRs/ADR%20Index.md)

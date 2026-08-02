@@ -44,4 +44,4 @@ Earlier project context mentions humidity, ventilation, basement conditions, hea
 
 ## Related
 
-[[Basement]] · [[Bathroom]] · [[Maintenance]] · [[Verification Standards]]
+[Basement](../../02%20Rooms/Basement.md) · [Bathroom](../../02%20Rooms/Bathroom.md) · [Maintenance](../../07%20Operations/Maintenance.md) · [Verification Standards](../../06%20Standards/Verification%20Standards.md)

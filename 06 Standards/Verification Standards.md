@@ -52,4 +52,4 @@ Write `unknown` or `verification required` with a responsible reviewer and actio
 
 ## Related
 
-[[ADR-006 Evidence Before Implementation Claims]] · [[Flow Template]] · [[Publication Audit]]
+[ADR-006 Evidence Before Implementation Claims](../01%20Architecture/ADRs/ADR-006%20Evidence%20Before%20Implementation%20Claims.md) · [Flow Template](../10%20Templates/Flow%20Template.md) · [Publication Audit](../00%20Home/Publication%20Audit.md)

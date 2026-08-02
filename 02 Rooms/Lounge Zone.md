@@ -12,7 +12,7 @@ tags: [room, lounge, presence, independent-audio]
 
 ## Role
 
-A destination zone connected to [[Living Transition]].
+A destination zone connected to [Living Transition](Living%20Transition.md).
 
 ## Confirmed inventory
 
@@ -31,4 +31,4 @@ independent audio endpoint model and Homey capabilities, lighting/scenes, presen
 
 ## Related
 
-[[Independent Audio Endpoint]] · [[Audio]] · [[Dining Zone]]
+[Independent Audio Endpoint](../04%20Devices/Independent%20Audio%20Endpoint/Independent%20Audio%20Endpoint.md) · [Audio](../03%20Systems/Audio/Audio.md) · [Dining Zone](Dining%20Zone.md)

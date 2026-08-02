@@ -18,14 +18,14 @@ Provide room and transition-state inputs for automation. Presence indicates that
 
 | Location | Status | Automation role |
 |---|---|---|
-| [[Dressing Area]] | Current | Destination presence |
-| [[Bathroom]] | Current | Destination presence |
-| [[Study]] | Current | Destination presence |
-| [[Lounge Zone]] | Current | Destination presence; open-plan overlap to test |
-| [[Transition Corridor]] | Current | Transition evidence |
-| [[Entry Corridor]] | Planned | Transition evidence |
-| [[Kitchen]] | Two planned | Combined logical occupancy to design/test |
-| [[Exercise Area]] | Planned | Destination presence |
+| [Dressing Area](../../02%20Rooms/Dressing%20Area.md) | Current | Destination presence |
+| [Bathroom](../../02%20Rooms/Bathroom.md) | Current | Destination presence |
+| [Study](../../02%20Rooms/Study.md) | Current | Destination presence |
+| [Lounge Zone](../../02%20Rooms/Lounge%20Zone.md) | Current | Destination presence; open-plan overlap to test |
+| [Transition Corridor](../../02%20Rooms/Transition%20Corridor.md) | Current | Transition evidence |
+| [Entry Corridor](../../02%20Rooms/Entry%20Corridor.md) | Planned | Transition evidence |
+| [Kitchen](../../02%20Rooms/Kitchen.md) | Two planned | Combined logical occupancy to design/test |
+| [Exercise Area](../../02%20Rooms/Exercise%20Area.md) | Planned | Destination presence |
 
 ## Sensor validation record
 
@@ -51,4 +51,4 @@ conservative timing, manual fallback, and explicit acceptance evidence.
 
 ## Related
 
-[[Presence Intelligence]] provides the broader textbook model. [[Presence Sensor Platform]] owns device-family details. [[Zone Design]] records deployment.
+[Presence Intelligence](Presence%20Intelligence.md) provides the broader textbook model. [Presence Sensor Platform](../../04%20Devices/Presence%20Sensor%20Platform/Presence%20Sensor%20Platform.md) owns device-family details. [Zone Design](../../02%20Rooms/Zone%20Design.md) records deployment.

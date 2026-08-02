@@ -12,7 +12,7 @@ tags: [integration, ev, energy]
 
 ## Role
 
-The Electric Vehicle provides the EV charging use case in [[Energy Management]]. The vehicle is confirmed; the charging hardware, Homey integration, and exact charging-state signal require verification.
+The Electric Vehicle provides the EV charging use case in [Energy Management](../../03%20Systems/Energy/Energy%20Management.md). The vehicle is confirmed; the charging hardware, Homey integration, and exact charging-state signal require verification.
 
 ## Required inventory
 
@@ -35,4 +35,4 @@ Homey may coordinate battery behavior around charging only after a charging sign
 
 ## Related
 
-[[ADR-005 Protect Storage During EV Charging]] · [[Residential Battery System]] · [[Energy Metering Gateway]]
+[ADR-005 Protect Storage During EV Charging](../../01%20Architecture/ADRs/ADR-005%20Protect%20Storage%20During%20EV%20Charging.md) · [Residential Battery System](../Residential%20Battery%20System/Residential%20Battery%20System.md) · [Energy Metering Gateway](../Energy%20Metering%20Gateway/Energy%20Metering%20Gateway.md)

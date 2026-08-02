@@ -76,13 +76,13 @@ record.
 1. Select branch `release/public-edition-v1.2-rc1`.
 2. Open **History** and inspect the RC commits.
 3. Use **Show in Explorer** to open the same branch as an Obsidian vault.
-4. Do not merge or push to a public remote until the checklist in [[Publication Audit]] is complete.
+4. Do not merge or push to a public remote until the checklist in [Publication Audit](Publication%20Audit.md) is complete.
 
 ### In Obsidian
 
 1. Open the branch folder as a vault.
-2. Begin at [[Start Here]].
-3. Test the links in [[Index]] and read the warning in [[Publication Scope and Privacy]].
+2. Begin at [Start Here](Start%20Here.md).
+3. Test the links in [Index](Index.md) and read the warning in [Publication Scope and Privacy](Publication%20Scope%20and%20Privacy.md).
 4. Open the graph only to check navigation; it is not a deployment diagram.
 5. Record editorial findings privately; do not add real-home details to this branch.
 
@@ -92,4 +92,4 @@ record.
 
 ## Related
 
-[[Publication Audit]] · [[Publication Standards]] · [[Release Notes]] · [[Changelog]]
+[Publication Audit](Publication%20Audit.md) · [Publication Standards](../06%20Standards/Publication%20Standards.md) · [Release Notes](Release%20Notes.md) · [Changelog](../CHANGELOG.md)

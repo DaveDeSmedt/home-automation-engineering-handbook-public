@@ -12,7 +12,7 @@ tags: [integration, battery, energy]
 
 ## Confirmed inventory
 
-Two units are recorded for residential energy storage. Earlier notes place them in the [[Utility Area]]; reconfirm the physical installation.
+Two units are recorded for residential energy storage. Earlier notes place them in the [Utility Area](../../02%20Rooms/Utility%20Area.md); reconfirm the physical installation.
 
 ## Responsibility
 
@@ -36,4 +36,4 @@ residential battery platform retains native battery control, protection, and dev
 
 ## Related
 
-[[Energy Management]] · [[ADR-004 Retain Native Battery Safety Controls]] · [[ADR-005 Protect Storage During EV Charging]]
+[Energy Management](../../03%20Systems/Energy/Energy%20Management.md) · [ADR-004 Retain Native Battery Safety Controls](../../01%20Architecture/ADRs/ADR-004%20Retain%20Native%20Battery%20Safety%20Controls.md) · [ADR-005 Protect Storage During EV Charging](../../01%20Architecture/ADRs/ADR-005%20Protect%20Storage%20During%20EV%20Charging.md)

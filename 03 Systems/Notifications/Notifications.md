@@ -40,4 +40,4 @@ Inventory active Homey notification cards, mobile recipients, speaker announceme
 
 ## Related
 
-[[Security]] · [[Troubleshooting]] · [[Audio]] · [[Flow Catalogue]]
+[Security](../Security/Security.md) · [Troubleshooting](../../07%20Operations/Troubleshooting.md) · [Audio](../Audio/Audio.md) · [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md)

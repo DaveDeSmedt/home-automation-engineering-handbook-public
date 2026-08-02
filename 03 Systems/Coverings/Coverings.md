@@ -33,4 +33,4 @@ timing are installation-specific and require local testing.
 
 ## Related
 
-[[Lighting]] · [[Stateful Automation Architecture]] · [[Maintenance]]
+[Lighting](../Lighting/Lighting.md) · [Stateful Automation Architecture](../../01%20Architecture/Stateful%20Automation%20Architecture.md) · [Maintenance](../../07%20Operations/Maintenance.md)

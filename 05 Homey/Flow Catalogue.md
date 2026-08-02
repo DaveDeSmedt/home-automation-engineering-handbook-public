@@ -48,8 +48,8 @@ tags: [homey, flows, catalogue, evidence]
 
 ## Promotion rule
 
-A flow moves to `verified` only when the exact Homey cards, configuration, test date, observed result, and failure/recovery behavior are recorded using [[Flow Template]].
+A flow moves to `verified` only when the exact Homey cards, configuration, test date, observed result, and failure/recovery behavior are recorded using [Flow Template](../10%20Templates/Flow%20Template.md).
 
 ## Related
 
-[[Advanced Flows]] · [[Follow-Me Audio]] · [[Energy Management]] · [[Verification Standards]]
+[Advanced Flows](Advanced%20Flows/Advanced%20Flows.md) · [Follow-Me Audio](../03%20Systems/Audio/Follow-Me%20Audio.md) · [Energy Management](../03%20Systems/Energy/Energy%20Management.md) · [Verification Standards](../06%20Standards/Verification%20Standards.md)

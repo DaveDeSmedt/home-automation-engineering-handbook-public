@@ -12,7 +12,7 @@ tags: [standard, naming, homey]
 
 ## Canonical rooms
 
-Use the titles in [[Zone Design]]. Do not collapse Entry Corridor and Transition Corridor into `Hallway`, or the Living Transition, Dining Zone, and Lounge Zone into a single automation zone.
+Use the titles in [Zone Design](../02%20Rooms/Zone%20Design.md). Do not collapse Entry Corridor and Transition Corridor into `Hallway`, or the Living Transition, Dining Zone, and Lounge Zone into a single automation zone.
 
 ## Devices
 

@@ -33,4 +33,4 @@ Every implementation claim carries an evidence status. Architecture may be compl
 
 ## Related
 
-[[Verification Standards]] · [[Publication Audit]] · [[Flow Template]]
+[Verification Standards](../../06%20Standards/Verification%20Standards.md) · [Publication Audit](../../00%20Home/Publication%20Audit.md) · [Flow Template](../../10%20Templates/Flow%20Template.md)

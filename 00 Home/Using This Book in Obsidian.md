@@ -14,7 +14,7 @@ Open the repository folder as an Obsidian vault. No special plugins are required
 
 ## Useful actions
 
-- Open [[Start Here]] after launching the vault.
+- Open [Start Here](Start%20Here.md) after launching the vault.
 - Use the backlink panel to see which chapters rely on a concept.
 - Use global search for a Homey card, state variable or failure pattern.
 - Open Graph View only as a navigation aid; it is not a system diagram.

@@ -12,7 +12,7 @@ tags: [room, dining, living]
 
 ## Role
 
-A destination zone connected to [[Living Transition]]. No presence or audio endpoint is recorded in the current inventory.
+A destination zone connected to [Living Transition](Living%20Transition.md). No presence or audio endpoint is recorded in the current inventory.
 
 ## Requirements
 
@@ -27,4 +27,4 @@ Fixtures, Hue groups/scenes, switches, daylight source, presence coverage, audio
 
 ## Related
 
-[[Open-plan Living Area]] · [[Lighting]] · [[Lounge Zone]]
+[Open-plan Living Area](Open-plan%20Living%20Area.md) · [Lighting](../03%20Systems/Lighting/Lighting.md) · [Lounge Zone](Lounge%20Zone.md)

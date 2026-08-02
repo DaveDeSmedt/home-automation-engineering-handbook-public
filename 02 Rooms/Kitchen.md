@@ -12,7 +12,7 @@ tags: [room, kitchen, presence, multiroom-audio]
 
 ## Role
 
-A destination room on Route 1, connected to [[Entry Corridor]] and [[Living Transition]].
+A destination room on Route 1, connected to [Entry Corridor](Entry%20Corridor.md) and [Living Transition](Living%20Transition.md).
 
 ## Confirmed/planned inventory
 
@@ -32,4 +32,4 @@ Two sensors may be needed to cover separate work/entry zones, but they should pr
 
 ## Related
 
-[[Entry Corridor]] · [[Living Transition]] · [[Presence Intelligence]] · [[Audio]]
+[Entry Corridor](Entry%20Corridor.md) · [Living Transition](Living%20Transition.md) · [Presence Intelligence](../03%20Systems/Presence/Presence%20Intelligence.md) · [Audio](../03%20Systems/Audio/Audio.md)

@@ -12,7 +12,7 @@ tags: [room, bedroom, quiet-hours]
 
 ## Role
 
-A destination room connected to [[Transition Corridor]]. No presence or audio device is confirmed in the current inventory.
+A destination room connected to [Transition Corridor](Transition%20Corridor.md). No presence or audio device is confirmed in the current inventory.
 
 ## Requirements
 
@@ -30,4 +30,4 @@ A destination room connected to [[Transition Corridor]]. No presence or audio de
 
 ## Related
 
-[[Transition Corridor]] · [[Lighting]] · [[Climate]] · [[Notifications]]
+[Transition Corridor](Transition%20Corridor.md) · [Lighting](../03%20Systems/Lighting/Lighting.md) · [Climate](../03%20Systems/Climate/Climate.md) · [Notifications](../03%20Systems/Notifications/Notifications.md)

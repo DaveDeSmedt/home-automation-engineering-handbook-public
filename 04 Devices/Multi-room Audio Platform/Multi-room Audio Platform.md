@@ -18,11 +18,11 @@ A multi-room audio platform owns synchronized playback, grouping and native volu
 
 | Zone | Example role |
 |---|---|
-| [[Study]] | Source or destination for focused listening |
-| [[Bathroom]] | Short-stay destination |
-| [[Dressing Area]] | Short-stay destination |
-| [[Kitchen]] | Shared destination with potentially overlapping presence |
-| [[Exercise Area]] | Higher-volume or independent-use destination |
+| [Study](../../02%20Rooms/Study.md) | Source or destination for focused listening |
+| [Bathroom](../../02%20Rooms/Bathroom.md) | Short-stay destination |
+| [Dressing Area](../../02%20Rooms/Dressing%20Area.md) | Short-stay destination |
+| [Kitchen](../../02%20Rooms/Kitchen.md) | Shared destination with potentially overlapping presence |
+| [Exercise Area](../../02%20Rooms/Exercise%20Area.md) | Higher-volume or independent-use destination |
 
 These are teaching zones, not an inventory.
 
@@ -49,4 +49,4 @@ A group-handover pattern may use actions that join another player's group and le
 
 ## Related
 
-[[Audio]] · [[Follow-Me Audio]] · [[Stateful Automation Architecture]] · [[Verification Standards]]
+[Audio](../../03%20Systems/Audio/Audio.md) · [Follow-Me Audio](../../03%20Systems/Audio/Follow-Me%20Audio.md) · [Stateful Automation Architecture](../../01%20Architecture/Stateful%20Automation%20Architecture.md) · [Verification Standards](../../06%20Standards/Verification%20Standards.md)

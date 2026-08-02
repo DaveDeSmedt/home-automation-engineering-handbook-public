@@ -55,7 +55,7 @@ Each room must record:
 
 ## Current maturity
 
-The Hue platform is confirmed, but detailed room implementation is not evidenced in this repository. Lighting flows remain `proposed` in [[Flow Catalogue]] until screenshots/exports and real-world tests are added.
+The Hue platform is confirmed, but detailed room implementation is not evidenced in this repository. Lighting flows remain `proposed` in [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md) until screenshots/exports and real-world tests are added.
 
 ## Acceptance pattern
 
@@ -72,4 +72,4 @@ tested room-policy decision.
 
 ## Related
 
-[[Lighting Platform]] · [[Presence Detection]] · [[Zone Design]] · [[ADR-002 Keep Lighting Control in the Lighting Platform]]
+[Lighting Platform](../../04%20Devices/Lighting%20Platform/Lighting%20Platform.md) · [Presence Detection](../Presence/Presence%20Detection.md) · [Zone Design](../../02%20Rooms/Zone%20Design.md) · [ADR-002 Keep Lighting Control in the Lighting Platform](../../01%20Architecture/ADRs/ADR-002%20Keep%20Lighting%20Control%20in%20the%20Lighting%20Platform.md)

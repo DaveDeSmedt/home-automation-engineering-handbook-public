@@ -36,4 +36,4 @@ Motion-only sensing can be adequate for short-stay spaces. Door contacts, timers
 
 ## Related
 
-[[Presence Detection]] · [[Presence Intelligence]] · [[Presence Sensor Platform]]
+[Presence Detection](../../03%20Systems/Presence/Presence%20Detection.md) · [Presence Intelligence](../../03%20Systems/Presence/Presence%20Intelligence.md) · [Presence Sensor Platform](../../04%20Devices/Presence%20Sensor%20Platform/Presence%20Sensor%20Platform.md)

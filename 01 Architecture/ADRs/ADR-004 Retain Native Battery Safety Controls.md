@@ -38,4 +38,4 @@ Keep native battery management as the safety baseline. Homey may apply bounded, 
 
 ## Related
 
-[[Energy Management]] · [[Residential Battery System]] · [[ADR-005 Protect Storage During EV Charging]]
+[Energy Management](../../03%20Systems/Energy/Energy%20Management.md) · [Residential Battery System](../../04%20Devices/Residential%20Battery%20System/Residential%20Battery%20System.md) · [ADR-005 Protect Storage During EV Charging](ADR-005%20Protect%20Storage%20During%20EV%20Charging.md)

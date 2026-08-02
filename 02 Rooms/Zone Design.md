@@ -46,18 +46,18 @@ The model allows movement in both directions and between branches through the En
 
 | Room | Presence | Audio | Classification |
 |---|---|---|---|
-| [[Entry Corridor]] | Planned | None recorded | Transition |
-| [[Transition Corridor]] | Current | None | Transition |
-| [[Guest WC]] | Not recorded | None recorded | Destination |
-| [[Kitchen]] | Two planned sensors | multi-room audio | Destination |
-| [[Living Transition]] | Not recorded | None recorded | Transition |
-| [[Dining Zone]] | Not recorded | None recorded | Destination |
-| [[Lounge Zone]] | Current | independent audio endpoint | Destination/separate audio domain |
-| [[Study]] | Current | multi-room audio stereo pair | Destination |
-| [[Dressing Area]] | Current | multi-room audio | Destination |
-| [[Bedroom]] | Not recorded | None recorded | Destination |
-| [[Bathroom]] | Current | multi-room audio | Destination |
-| [[Exercise Area]] | Planned | multi-room audio | Destination; adjacency not confirmed |
-| [[Utility Area]] | Not recorded | None recorded | Service area; adjacency not documented |
+| [Entry Corridor](Entry%20Corridor.md) | Planned | None recorded | Transition |
+| [Transition Corridor](Transition%20Corridor.md) | Current | None | Transition |
+| [Guest WC](Guest%20WC.md) | Not recorded | None recorded | Destination |
+| [Kitchen](Kitchen.md) | Two planned sensors | multi-room audio | Destination |
+| [Living Transition](Living%20Transition.md) | Not recorded | None recorded | Transition |
+| [Dining Zone](Dining%20Zone.md) | Not recorded | None recorded | Destination |
+| [Lounge Zone](Lounge%20Zone.md) | Current | independent audio endpoint | Destination/separate audio domain |
+| [Study](Study.md) | Current | multi-room audio stereo pair | Destination |
+| [Dressing Area](Dressing%20Area.md) | Current | multi-room audio | Destination |
+| [Bedroom](Bedroom.md) | Not recorded | None recorded | Destination |
+| [Bathroom](Bathroom.md) | Current | multi-room audio | Destination |
+| [Exercise Area](Exercise%20Area.md) | Planned | multi-room audio | Destination; adjacency not confirmed |
+| [Utility Area](Utility%20Area.md) | Not recorded | None recorded | Service area; adjacency not documented |
 
 “Not recorded” is not the same as “absent.” Update the individual page after physical verification.

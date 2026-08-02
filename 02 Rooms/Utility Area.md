@@ -16,7 +16,7 @@ A service/utility area associated in earlier notes with energy storage and humid
 
 ## Known association
 
-- The two [[Residential Battery System]] units were previously recorded as located in the Utility Area; physical location should be reconfirmed.
+- The two [Residential Battery System](../04%20Devices/Residential%20Battery%20System/Residential%20Battery%20System.md) units were previously recorded as located in the Utility Area; physical location should be reconfirmed.
 
 ## Requirements
 
@@ -34,4 +34,4 @@ A service/utility area associated in earlier notes with energy storage and humid
 
 ## Related
 
-[[Energy Management]] · [[Climate]] · [[Security]] · [[Maintenance]]
+[Energy Management](../03%20Systems/Energy/Energy%20Management.md) · [Climate](../03%20Systems/Climate/Climate.md) · [Security](../03%20Systems/Security/Security.md) · [Maintenance](../07%20Operations/Maintenance.md)

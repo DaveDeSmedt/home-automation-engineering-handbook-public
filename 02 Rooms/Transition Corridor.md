@@ -12,7 +12,7 @@ tags: [room, hallway, transition, presence]
 
 ## Role
 
-Transition junction between [[Entry Corridor]], [[Study]], [[Dressing Area]], [[Bedroom]], and [[Bathroom]].
+Transition junction between [Entry Corridor](Entry%20Corridor.md), [Study](Study.md), [Dressing Area](Dressing%20Area.md), [Bedroom](Bedroom.md), and [Bathroom](Bathroom.md).
 
 ## Confirmed inventory
 
@@ -31,4 +31,4 @@ Transition Corridor presence can validate movement between destination rooms. It
 
 ## Related
 
-[[Follow-Me Audio]] · [[Presence Intelligence]] · [[Entry Corridor]]
+[Follow-Me Audio](../03%20Systems/Audio/Follow-Me%20Audio.md) · [Presence Intelligence](../03%20Systems/Presence/Presence%20Intelligence.md) · [Entry Corridor](Entry%20Corridor.md)

@@ -31,4 +31,4 @@ The Energy Metering Gateway provides household/grid energy telemetry used by the
 
 ## Related
 
-[[Energy Management]] · [[Residential Battery System]] · [[Flow Catalogue]]
+[Energy Management](../../03%20Systems/Energy/Energy%20Management.md) · [Residential Battery System](../Residential%20Battery%20System/Residential%20Battery%20System.md) · [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md)

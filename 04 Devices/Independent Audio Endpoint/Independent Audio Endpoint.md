@@ -12,7 +12,7 @@ tags: [integration, independent-audio]
 
 ## Confirmed fact
 
-A independent audio endpoint audio endpoint is present in the [[Lounge Zone]].
+A independent audio endpoint audio endpoint is present in the [Lounge Zone](../../02%20Rooms/Lounge%20Zone.md).
 
 ## Unknowns
 
@@ -32,4 +32,4 @@ Treat independent audio endpoint as a separate audio domain. Do not claim seamle
 
 ## Related
 
-[[Audio]] · [[Lounge Zone]] · [[Verification Standards]]
+[Audio](../../03%20Systems/Audio/Audio.md) · [Lounge Zone](../../02%20Rooms/Lounge%20Zone.md) · [Verification Standards](../../06%20Standards/Verification%20Standards.md)

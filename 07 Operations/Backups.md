@@ -38,4 +38,4 @@ At least annually, verify that backups can be opened and that the documented acc
 
 ## Related
 
-[[Recovery]] · [[Using This Book in Obsidian]] · [[Maintenance]]
+[Recovery](Recovery.md) · [Using This Book in Obsidian](../00%20Home/Using%20This%20Book%20in%20Obsidian.md) · [Maintenance](Maintenance.md)

@@ -29,7 +29,7 @@ Homey does not replace electrical safety, certified alarms, native battery prote
 
 - Back up before material flow/app changes.
 - Record Homey generation, software version, installed apps, and observation date.
-- Use stable names from [[Naming Standards]].
+- Use stable names from [Naming Standards](../06%20Standards/Naming%20Standards.md).
 - Reconcile variables with device state after restart where necessary.
 - Keep a manual recovery path for every important subsystem.
 
@@ -39,4 +39,4 @@ Exact automation controller generation, software version, network connection, ba
 
 ## Related
 
-[[Advanced Flows]] · [[Variables]] · [[Homey Apps]] · [[ADR-001 automation controller as Central Brain]]
+[Advanced Flows](../05%20Homey/Advanced%20Flows/Advanced%20Flows.md) · [Variables](../05%20Homey/Variables/Variables.md) · [Homey Apps](../05%20Homey/Apps/Homey%20Apps.md) · [ADR-001 automation controller as Central Brain](../01%20Architecture/ADRs/ADR-001%20Automation%20Controller%20as%20Central%20Brain.md)

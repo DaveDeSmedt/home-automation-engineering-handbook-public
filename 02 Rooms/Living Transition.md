@@ -12,7 +12,7 @@ tags: [room, living, transition]
 
 ## Role
 
-Transition zone between [[Kitchen]], [[Dining Zone]], and [[Lounge Zone]]. No sensor or audio endpoint is assumed in this example.
+Transition zone between [Kitchen](Kitchen.md), [Dining Zone](Dining%20Zone.md), and [Lounge Zone](Lounge%20Zone.md). No sensor or audio endpoint is assumed in this example.
 
 ## Design considerations
 
@@ -26,4 +26,4 @@ Physical boundaries, lighting groups/scenes, sensor feasibility, and whether it 
 
 ## Related
 
-[[Open-plan Living Area]] · [[Presence Intelligence]] · [[Zone Design]]
+[Open-plan Living Area](Open-plan%20Living%20Area.md) · [Presence Intelligence](../03%20Systems/Presence/Presence%20Intelligence.md) · [Zone Design](Zone%20Design.md)

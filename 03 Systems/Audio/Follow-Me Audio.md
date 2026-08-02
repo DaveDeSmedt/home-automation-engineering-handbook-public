@@ -550,4 +550,4 @@ The recommended engineering sequence is:
 | Destination presence false positive | Audio moves unnecessarily | Add route validation or confirmation delay |
 | Source still occupied | Audio is removed from an active listener | Require source-empty logic or multi-room policy |
 | Join-group action fails | Destination remains silent | Keep current-room state unchanged and retry manually |
-| Leave-group action fails | Both r…1776 tokens truncated…DR-005 Protect Storage During EV Charging]] · [[Integration Roles]] · [[Flow Catalogue]]
+| Leave-group action fails | Both r…1776 tokens truncated…DR-005 Protect Storage During EV Charging]] · [Integration Roles](../../01%20Architecture/Integration%20Roles.md) · [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md)

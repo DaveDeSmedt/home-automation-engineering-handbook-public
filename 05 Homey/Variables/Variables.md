@@ -38,4 +38,4 @@ After restart, reconcile variables with real devices where possible. If state ca
 
 ## Related
 
-[[Variable Template]] · [[Stateful Automation Architecture]] · [[Follow-Me Audio]]
+[Variable Template](../../10%20Templates/Variable%20Template.md) · [Stateful Automation Architecture](../../01%20Architecture/Stateful%20Automation%20Architecture.md) · [Follow-Me Audio](../../03%20Systems/Audio/Follow-Me%20Audio.md)

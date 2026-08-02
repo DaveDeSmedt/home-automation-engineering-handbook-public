@@ -12,7 +12,7 @@ tags: [homey, advanced-flow, implementation]
 
 ## Role
 
-Advanced Flows implement visible cross-system logic in Homey. This page defines implementation rules; [[Flow Catalogue]] records individual automation status.
+Advanced Flows implement visible cross-system logic in Homey. This page defines implementation rules; [Flow Catalogue](../Flow%20Catalogue.md) records individual automation status.
 
 ## Flow structure
 
@@ -55,4 +55,4 @@ Every operational flow should expose:
 
 ## Related
 
-[[Flow ID Standards]] · [[Variables]] · [[Stateful Automation Architecture]] · [[Flow Template]]
+[Flow ID Standards](../../06%20Standards/Flow%20ID%20Standards.md) · [Variables](../Variables/Variables.md) · [Stateful Automation Architecture](../../01%20Architecture/Stateful%20Automation%20Architecture.md) · [Flow Template](../../10%20Templates/Flow%20Template.md)

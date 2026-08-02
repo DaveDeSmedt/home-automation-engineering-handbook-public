@@ -22,7 +22,7 @@ A small route that works is more valuable than a complete theoretical engine tha
 
 ### Use state deliberately
 
-Events say that something happened. State records what the system currently believes or intends. Durable state must have one source of truth, defined valid values, and a recovery path. See [[Stateful Automation Architecture]].
+Events say that something happened. State records what the system currently believes or intends. Durable state must have one source of truth, defined valid values, and a recovery path. See [Stateful Automation Architecture](Stateful%20Automation%20Architecture.md).
 
 ### Manual control wins
 
@@ -38,7 +38,7 @@ Non-critical automation should fail without disabling basic room use. Critical f
 
 ### Evidence before claims
 
-Screenshots, exported flow definitions, recorded evidence, or repeatable tests support implementation claims. Assumptions stay labeled. See [[Verification Standards]] and [[ADR-006 Evidence Before Implementation Claims]].
+Screenshots, exported flow definitions, recorded evidence, or repeatable tests support implementation claims. Assumptions stay labeled. See [Verification Standards](../06%20Standards/Verification%20Standards.md) and [ADR-006 Evidence Before Implementation Claims](ADRs/ADR-006%20Evidence%20Before%20Implementation%20Claims.md).
 
 ## Practical/textbook separation
 

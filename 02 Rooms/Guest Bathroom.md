@@ -12,7 +12,7 @@ tags: [room, bathroom, guests]
 
 ## Role
 
-A destination room connected directly to [[Front Hallway]]. No presence, audio, or detailed lighting inventory is currently recorded.
+A destination room connected directly to [Front Hallway](Front%20Hallway.md). No presence, audio, or detailed lighting inventory is currently recorded.
 
 ## Requirements
 
@@ -27,4 +27,4 @@ Lighting, switch, presence, ventilation/humidity, leak, smoke, and notification 
 
 ## Related
 
-[[Front Hallway]] · [[Lighting]] · [[Climate]]
+[Front Hallway](Front%20Hallway.md) · [Lighting](../03%20Systems/Lighting/Lighting.md) · [Climate](../03%20Systems/Climate/Climate.md)

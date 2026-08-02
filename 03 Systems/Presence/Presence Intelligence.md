@@ -11,7 +11,7 @@ tags: [presence, occupancy, architecture, homey]
 # Presence Intelligence
 
 > [!note] Textbook architecture
-> This chapter explains a scalable model. Its zone graph and coverage examples are illustrative; implementation status belongs in [[Flow Catalogue]].
+> This chapter explains a scalable model. Its zone graph and coverage examples are illustrative; implementation status belongs in [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md).
 
 ## 1. Introduction
 

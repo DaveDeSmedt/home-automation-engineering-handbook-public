@@ -12,7 +12,7 @@ tags: [room, bathroom, presence, multiroom-audio]
 
 ## Role
 
-A destination room connected to [[Transition Corridor]] and the first proposed destination in the Study → Transition Corridor → Bathroom audio pilot.
+A destination room connected to [Transition Corridor](Transition%20Corridor.md) and the first proposed destination in the Study → Transition Corridor → Bathroom audio pilot.
 
 ## Confirmed inventory
 
@@ -35,4 +35,4 @@ A destination room connected to [[Transition Corridor]] and the first proposed d
 
 ## Related
 
-[[Transition Corridor]] · [[Follow-Me Audio]] · [[Climate]] · [[Security]]
+[Transition Corridor](Transition%20Corridor.md) · [Follow-Me Audio](../03%20Systems/Audio/Follow-Me%20Audio.md) · [Climate](../03%20Systems/Climate/Climate.md) · [Security](../03%20Systems/Security/Security.md)

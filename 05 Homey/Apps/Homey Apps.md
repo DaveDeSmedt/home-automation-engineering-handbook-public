@@ -35,4 +35,4 @@ Do not record tokens or account credentials. Record permission purpose, connecti
 
 ## Related
 
-[[Firmware]] · [[Backups]] · [[Integration Roles]] · [[Flow Catalogue]]
+[Firmware](../../07%20Operations/Firmware.md) · [Backups](../../07%20Operations/Backups.md) · [Integration Roles](../../01%20Architecture/Integration%20Roles.md) · [Flow Catalogue](../Flow%20Catalogue.md)

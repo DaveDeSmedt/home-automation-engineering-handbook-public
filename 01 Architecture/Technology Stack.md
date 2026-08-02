@@ -12,15 +12,15 @@ tags: [architecture, technology, integrations]
 
 | Domain | Technology | Role | Evidence status |
 |---|---|---|---|
-| Orchestration | [[automation controller]] | Cross-system automation | Verified |
-| Lighting | [[Lighting Platform]] | Lighting devices and native control | Verified platform; inventory incomplete |
-| Presence | [[Presence Sensor Platform]] | Room/transition presence input | Confirmed locations documented |
-| Energy storage | [[Residential Battery System]] | Two battery units | Verified quantity; configuration incomplete |
-| Energy telemetry | [[Energy Metering Gateway]] | Grid/energy measurements | Verified device; exact signals incomplete |
-| Audio | [[Multi-room Audio Platform]] | Multi-room audio domain | Reference inventory |
-| Lounge audio | [[Independent Audio Endpoint]] | Separate endpoint | Reference integration capability |
-| Vehicle | [[Electric Vehicle]] | EV charging context | Verified vehicle; charger details require verification |
-| Network | [[Home Network Gateway]] | Network gateway role | Verification required |
+| Orchestration | [automation controller](../04%20Devices/Automation%20Controller.md) | Cross-system automation | Verified |
+| Lighting | [Lighting Platform](../04%20Devices/Lighting%20Platform/Lighting%20Platform.md) | Lighting devices and native control | Verified platform; inventory incomplete |
+| Presence | [Presence Sensor Platform](../04%20Devices/Presence%20Sensor%20Platform/Presence%20Sensor%20Platform.md) | Room/transition presence input | Confirmed locations documented |
+| Energy storage | [Residential Battery System](../04%20Devices/Residential%20Battery%20System/Residential%20Battery%20System.md) | Two battery units | Verified quantity; configuration incomplete |
+| Energy telemetry | [Energy Metering Gateway](../04%20Devices/Energy%20Metering%20Gateway/Energy%20Metering%20Gateway.md) | Grid/energy measurements | Verified device; exact signals incomplete |
+| Audio | [Multi-room Audio Platform](../04%20Devices/Multi-room%20Audio%20Platform/Multi-room%20Audio%20Platform.md) | Multi-room audio domain | Reference inventory |
+| Lounge audio | [Independent Audio Endpoint](../04%20Devices/Independent%20Audio%20Endpoint/Independent%20Audio%20Endpoint.md) | Separate endpoint | Reference integration capability |
+| Vehicle | [Electric Vehicle](../04%20Devices/Electric%20Vehicle/Electric%20Vehicle.md) | EV charging context | Verified vehicle; charger details require verification |
+| Network | [Home Network Gateway](../04%20Devices/Home%20Network%20Gateway/Home%20Network%20Gateway.md) | Network gateway role | Verification required |
 | Documentation | Obsidian Markdown + GitHub | Knowledge base and version history | Verified |
 
 ## Protocol policy

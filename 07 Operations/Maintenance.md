@@ -25,11 +25,11 @@ tags: [operations, maintenance]
 - Inspect multi-room audio grouping/manual playback recovery.
 - Review firmware/app changes and deprecated cards.
 - Check network/storage capacity and configuration backups.
-- Update [[Integration Roles]] and [[Flow Catalogue]].
+- Update [Integration Roles](../01%20Architecture/Integration%20Roles.md) and [Flow Catalogue](../05%20Homey/Flow%20Catalogue.md).
 
 ## Annually
 
-- Perform a controlled recovery exercise from [[Backups]].
+- Perform a controlled recovery exercise from [Backups](Backups.md).
 - Review electrical, battery, smoke, leak, and climate equipment according to manufacturer/qualified-service guidance.
 - Audit privacy-sensitive repository content and collaborator access.
 - Review all `proposed` pages: test, defer, or retire.
@@ -43,4 +43,4 @@ tags: [operations, maintenance]
 4. Test normal, manual, and failure behavior.
 5. Update evidence, page revision, changelog if release-worthy, and maintenance date.
 
-Use [[Maintenance Template]] for recurring work and [[Incident Template]] when behavior fails unexpectedly.
+Use [Maintenance Template](../10%20Templates/Maintenance%20Template.md) for recurring work and [Incident Template](../10%20Templates/Incident%20Template.md) when behavior fails unexpectedly.

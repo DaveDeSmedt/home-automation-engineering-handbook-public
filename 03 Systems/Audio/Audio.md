@@ -40,7 +40,7 @@ Provide predictable room audio, announcements, and a future follow-me experience
 
 ## Implementation boundary
 
-[[Follow-Me Audio]] documents the proposed multi-room audio handover pilot. Architecture beyond that pilot is explanatory and must not be marked operational without a test record in [[Flow Catalogue]].
+[Follow-Me Audio](Follow-Me%20Audio.md) documents the proposed multi-room audio handover pilot. Architecture beyond that pilot is explanatory and must not be marked operational without a test record in [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md).
 
 ## Failure behavior
 
@@ -48,4 +48,4 @@ If grouping fails, preserve the source playback where possible, avoid repeated r
 
 ## Related
 
-[[Multi-room Audio Platform]] · [[Independent Audio Endpoint]] · [[Presence Intelligence]] · [[ADR-007 Group Handover for Follow-Me Audio]]
+[Multi-room Audio Platform](../../04%20Devices/Multi-room%20Audio%20Platform/Multi-room%20Audio%20Platform.md) · [Independent Audio Endpoint](../../04%20Devices/Independent%20Audio%20Endpoint/Independent%20Audio%20Endpoint.md) · [Presence Intelligence](../Presence/Presence%20Intelligence.md) · [ADR-007 Group Handover for Follow-Me Audio](../../01%20Architecture/ADRs/ADR-007%20Group%20Handover%20for%20Follow-Me%20Audio.md)

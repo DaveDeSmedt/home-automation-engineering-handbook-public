@@ -39,4 +39,4 @@ automation controller owns cross-system intent, variables, sequencing, and notif
 
 ## Related
 
-[[automation controller]] · [[Advanced Flows]] · [[Stateful Automation Architecture]]
+[automation controller](../../04%20Devices/Automation%20Controller.md) · [Advanced Flows](../../05%20Homey/Advanced%20Flows/Advanced%20Flows.md) · [Stateful Automation Architecture](../Stateful%20Automation%20Architecture.md)

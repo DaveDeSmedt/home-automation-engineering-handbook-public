@@ -38,4 +38,4 @@ Use a Homey flow to recognize a verified EV-charging condition, apply a temporar
 
 ## Related
 
-[[Energy Management]] · [[Electric Vehicle]] · [[Flow Catalogue]]
+[Energy Management](../../03%20Systems/Energy/Energy%20Management.md) · [Electric Vehicle](../../04%20Devices/Electric%20Vehicle/Electric%20Vehicle.md) · [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md)

@@ -40,8 +40,8 @@ Use HomeyScript when logic is difficult to express, test, or maintain in Advance
 
 ## Candidate future use
 
-A generalized audio transfer service may become useful after pairwise multi-room audio flows are proven. Until then, [[Follow-Me Audio]] should remain a small Advanced Flow pilot.
+A generalized audio transfer service may become useful after pairwise multi-room audio flows are proven. Until then, [Follow-Me Audio](../../03%20Systems/Audio/Follow-Me%20Audio.md) should remain a small Advanced Flow pilot.
 
 ## Related
 
-[[Advanced Flows]] · [[Stateful Automation Architecture]] · [[Flow Catalogue]]
+[Advanced Flows](../Advanced%20Flows/Advanced%20Flows.md) · [Stateful Automation Architecture](../../01%20Architecture/Stateful%20Automation%20Architecture.md) · [Flow Catalogue](../Flow%20Catalogue.md)

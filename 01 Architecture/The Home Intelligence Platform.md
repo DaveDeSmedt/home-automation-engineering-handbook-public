@@ -11,7 +11,7 @@ tags: [architecture, homey, platform, integration, smart-home]
 # The Home Intelligence Platform
 
 > [!note] Architecture, not deployment proof
-> This chapter defines responsibility boundaries and design principles. Confirm actual devices and flows through [[Integration Index]] and [[Flow Catalogue]].
+> This chapter defines responsibility boundaries and design principles. Confirm actual devices and flows through [Integration Index](../04%20Devices/Integration%20Index.md) and [Flow Catalogue](../05%20Homey/Flow%20Catalogue.md).
 
 ## 1. Purpose
 

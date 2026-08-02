@@ -32,8 +32,8 @@ The current repository does not contain a verified Hue device/scene inventory. L
 
 - Homey flows should target stable Hue scenes or explicit devices, not undocumented assumptions.
 - Native and Homey automations must be reviewed for duplicate triggers.
-- Device replacement and naming follow [[Naming Standards]].
+- Device replacement and naming follow [Naming Standards](../../06%20Standards/Naming%20Standards.md).
 
 ## Related
 
-[[Lighting]] · [[Lighting Platform]] · [[Integration Roles]]
+[Lighting](../../03%20Systems/Lighting/Lighting.md) · [Lighting Platform](../../04%20Devices/Lighting%20Platform/Lighting%20Platform.md) · [Integration Roles](../Integration%20Roles.md)

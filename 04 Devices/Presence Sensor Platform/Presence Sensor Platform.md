@@ -34,4 +34,4 @@ Presence does not identify a person. Multiple active rooms may be valid. A stale
 
 ## Related
 
-[[Presence Detection]] · [[Presence Intelligence]] · [[ADR-003 Use Dedicated Presence Inputs]]
+[Presence Detection](../../03%20Systems/Presence/Presence%20Detection.md) · [Presence Intelligence](../../03%20Systems/Presence/Presence%20Intelligence.md) · [ADR-003 Use Dedicated Presence Inputs](../../01%20Architecture/ADRs/ADR-003%20Use%20Dedicated%20Presence%20Inputs.md)

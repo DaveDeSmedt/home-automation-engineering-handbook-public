@@ -12,7 +12,7 @@ tags: [room, study, presence, multiroom-audio]
 
 ## Role
 
-A destination room connected to [[Transition Corridor]], used as the initial source room in the follow-me-audio pilot.
+A destination room connected to [Transition Corridor](Transition%20Corridor.md), used as the initial source room in the follow-me-audio pilot.
 
 ## Confirmed inventory
 
@@ -34,4 +34,4 @@ A destination room connected to [[Transition Corridor]], used as the initial sou
 
 ## Related
 
-[[Transition Corridor]] · [[Follow-Me Audio]] · [[Multi-room Audio Platform]] · [[Presence Sensor Platform]]
+[Transition Corridor](Transition%20Corridor.md) · [Follow-Me Audio](../03%20Systems/Audio/Follow-Me%20Audio.md) · [Multi-room Audio Platform](../04%20Devices/Multi-room%20Audio%20Platform/Multi-room%20Audio%20Platform.md) · [Presence Sensor Platform](../04%20Devices/Presence%20Sensor%20Platform/Presence%20Sensor%20Platform.md)

@@ -44,4 +44,4 @@ A release candidate can be reviewed privately. It must not be merged into an ope
 
 ## Related
 
-[[Publication Scope and Privacy]] · [[Documentation Standards]] · [[Verification Standards]] · [[Publication Audit]]
+[Publication Scope and Privacy](../00%20Home/Publication%20Scope%20and%20Privacy.md) · [Documentation Standards](Documentation%20Standards.md) · [Verification Standards](Verification%20Standards.md) · [Publication Audit](../00%20Home/Publication%20Audit.md)

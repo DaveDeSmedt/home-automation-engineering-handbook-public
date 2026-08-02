@@ -25,4 +25,4 @@ tags: [principles, reliability, human-control]
 13. **Privacy by design.** Do not commit credentials, access codes, detailed security response, or unnecessary personal data.
 14. **Maintenance is part of design.** Every consequential automation needs ownership, observability, recovery, and review.
 
-These principles apply across [[System Index]], [[Advanced Flows]], and [[Maintenance]].
+These principles apply across [System Index](../03%20Systems/System%20Index.md), [Advanced Flows](../05%20Homey/Advanced%20Flows/Advanced%20Flows.md), and [Maintenance](../07%20Operations/Maintenance.md).

@@ -34,4 +34,4 @@ A loss of internet should degrade cloud-dependent features without making lights
 
 ## Related
 
-[[Network Topology]] · [[Backups]] · [[Recovery]] · [[Troubleshooting]]
+[Network Topology](../../01%20Architecture/Network%20Topology.md) · [Backups](../../07%20Operations/Backups.md) · [Recovery](../../07%20Operations/Recovery.md) · [Troubleshooting](../../07%20Operations/Troubleshooting.md)

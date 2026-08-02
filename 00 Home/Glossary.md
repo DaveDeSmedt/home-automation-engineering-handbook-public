@@ -34,4 +34,4 @@ tags: [glossary, reference, public-edition]
 | **Transition zone** | A route area that helps interpret movement but normally does not own audio or comfort. |
 | **Verification required** | A fact that must be confirmed from the real installation, not inferred from a pattern. |
 
-See [[Verification Standards]] for evidence rules and [[Index]] for navigation.
+See [Verification Standards](../06%20Standards/Verification%20Standards.md) for evidence rules and [Index](Index.md) for navigation.

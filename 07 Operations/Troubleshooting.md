@@ -43,4 +43,4 @@ Electrical, battery, fire, security, or manufacturer-safety concerns go to the a
 
 ## Related
 
-[[Recovery]] · [[Incident Template]] · [[Verification Standards]]
+[Recovery](Recovery.md) · [Incident Template](../10%20Templates/Incident%20Template.md) · [Verification Standards](../06%20Standards/Verification%20Standards.md)

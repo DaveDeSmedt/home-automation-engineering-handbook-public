@@ -12,7 +12,7 @@ tags: [room, dressing, presence, multiroom-audio]
 
 ## Role
 
-A destination room connected to [[Transition Corridor]].
+A destination room connected to [Transition Corridor](Transition%20Corridor.md).
 
 ## Confirmed inventory
 
@@ -29,4 +29,4 @@ Lighting devices/scenes, sensor coverage and timeout, multi-room audio model/roo
 
 ## Related
 
-[[Follow-Me Audio]] · [[Presence Intelligence]] · [[Bedroom]]
+[Follow-Me Audio](../03%20Systems/Audio/Follow-Me%20Audio.md) · [Presence Intelligence](../03%20Systems/Presence/Presence%20Intelligence.md) · [Bedroom](Bedroom.md)

@@ -26,4 +26,4 @@ Physical route, sensor placement/model, lighting, ventilation/temperature, multi
 
 ## Related
 
-[[Audio]] · [[Presence Intelligence]] · [[Climate]]
+[Audio](../03%20Systems/Audio/Audio.md) · [Presence Intelligence](../03%20Systems/Presence/Presence%20Intelligence.md) · [Climate](../03%20Systems/Climate/Climate.md)

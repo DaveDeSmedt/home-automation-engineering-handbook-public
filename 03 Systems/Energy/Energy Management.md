@@ -16,10 +16,10 @@ Use measured energy state to improve self-consumption and peak behavior without 
 
 ## Confirmed components
 
-- Two [[Residential Battery System]] units.
-- One [[Energy Metering Gateway]].
-- [[automation controller]] orchestration.
-- [[Electric Vehicle]] charging context.
+- Two [Residential Battery System](../../04%20Devices/Residential%20Battery%20System/Residential%20Battery%20System.md) units.
+- One [Energy Metering Gateway](../../04%20Devices/Energy%20Metering%20Gateway/Energy%20Metering%20Gateway.md).
+- [automation controller](../../04%20Devices/Automation%20Controller.md) orchestration.
+- [Electric Vehicle](../../04%20Devices/Electric%20Vehicle/Electric%20Vehicle.md) charging context.
 - Solar generation is part of the stated strategy; inverter/panel details are not inventoried.
 
 ```mermaid
@@ -76,4 +76,4 @@ battery: verify command scope and native-platform behaviour for the installation
 
 ## Related
 
-[[ADR-004 Retain Native Battery Safety Controls]] · [[ADR-005 Protect Storage During EV Charging]] · [[Integration Index]] · [[Flow Catalogue]]
+[ADR-004 Retain Native Battery Safety Controls](../../01%20Architecture/ADRs/ADR-004%20Retain%20Native%20Battery%20Safety%20Controls.md) · [ADR-005 Protect Storage During EV Charging](../../01%20Architecture/ADRs/ADR-005%20Protect%20Storage%20During%20EV%20Charging.md) · [Integration Index](../../04%20Devices/Integration%20Index.md) · [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md)

@@ -45,7 +45,7 @@ Do not use **installed**, **current**, **production**, or similar words in the p
 - Use role names—*lighting platform*, *battery system*, *presence input*—rather than private inventory.
 - Use generic zones, never a real floor plan or address.
 - Do not include credentials, IP addresses, account names, serial numbers, access instructions, security placement or screenshots with private data.
-- Explain a vendor-specific concept only when it is necessary; link to a primary source in [[Bibliography]].
+- Explain a vendor-specific concept only when it is necessary; link to a primary source in [Bibliography](../00%20Home/Bibliography.md).
 - Label assumptions and proposed flows clearly.
 
 ## Links and diagrams
@@ -54,4 +54,4 @@ Use `Obsidian-style links` for book navigation. Use Mermaid for logical diagrams
 
 ## Release and revision control
 
-`VERSION.md` is the book release. `revision` is local to a page. Update `last-reviewed` when a material statement is checked. Record publication-level changes in `CHANGELOG.md` and explain them in [[Release Notes]].
+`VERSION.md` is the book release. `revision` is local to a page. Update `last-reviewed` when a material statement is checked. Record publication-level changes in `CHANGELOG.md` and explain them in [Release Notes](../00%20Home/Release%20Notes.md).

@@ -25,7 +25,7 @@ Lighting, presence, audio, climate, security, notifications, manual control.
 
 ## Implemented behavior
 
-Only verified flows; link [[Flow Catalogue]].
+Only verified flows; link [Flow Catalogue](../05%20Homey/Flow%20Catalogue.md).
 
 ## Proposed behavior
 

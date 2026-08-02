@@ -11,7 +11,7 @@ tags: [architecture, state, events, variables, homey, reliability]
 # Stateful Automation Architecture
 
 > [!note] Reference model
-> Patterns in this chapter are design guidance. A worked example is not considered deployed until it appears with evidence in [[Flow Catalogue]].
+> Patterns in this chapter are design guidance. A worked example is not considered deployed until it appears with evidence in [Flow Catalogue](../05%20Homey/Flow%20Catalogue.md).
 
 ## 1. Introduction
 

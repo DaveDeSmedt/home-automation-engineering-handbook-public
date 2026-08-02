@@ -12,7 +12,7 @@ tags: [room, dining, living]
 
 ## Role
 
-A destination zone connected to [[Living Entrance]]. No presence or audio endpoint is recorded in the current inventory.
+A destination zone connected to [Living Entrance](Living%20Entrance.md). No presence or audio endpoint is recorded in the current inventory.
 
 ## Requirements
 
@@ -27,4 +27,4 @@ Fixtures, Hue groups/scenes, switches, daylight source, presence coverage, audio
 
 ## Related
 
-[[Living Room]] · [[Lighting]] · [[Lounge Zone]]
+[Living Room](Living%20Room.md) · [Lighting](../03%20Systems/Lighting/Lighting.md) · [Lounge Zone](Lounge%20Zone.md)

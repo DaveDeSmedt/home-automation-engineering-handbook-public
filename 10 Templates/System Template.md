@@ -22,7 +22,7 @@ tags: [template, system]
 
 ## Implemented flows
 
-Link verified entries in [[Flow Catalogue]].
+Link verified entries in [Flow Catalogue](../05%20Homey/Flow%20Catalogue.md).
 
 ## Proposed flows
 

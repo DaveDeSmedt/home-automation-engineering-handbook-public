@@ -36,4 +36,4 @@ If rollback is unsupported, disable only the affected automations, preserve manu
 
 ## Related
 
-[[Homey Apps]] · [[Integration Roles]] · [[Backups]] · [[Troubleshooting]]
+[Homey Apps](../05%20Homey/Apps/Homey%20Apps.md) · [Integration Roles](../01%20Architecture/Integration%20Roles.md) · [Backups](Backups.md) · [Troubleshooting](Troubleshooting.md)

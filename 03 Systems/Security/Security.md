@@ -39,4 +39,4 @@ Test alerts end to end without creating unsafe conditions. Confirm device-local 
 
 ## Related
 
-[[Notifications]] · [[Network Topology]] · [[Recovery]] · [[Entry Corridor]]
+[Notifications](../Notifications/Notifications.md) · [Network Topology](../../01%20Architecture/Network%20Topology.md) · [Recovery](../../07%20Operations/Recovery.md) · [Entry Corridor](../../02%20Rooms/Entry%20Corridor.md)

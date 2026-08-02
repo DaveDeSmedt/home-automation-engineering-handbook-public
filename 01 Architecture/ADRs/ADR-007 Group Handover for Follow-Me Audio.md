@@ -38,4 +38,4 @@ The Study → Transition Corridor → Bathroom route is an illustrative acceptan
 
 ## Related
 
-[[Follow-Me Audio]] · [[Multi-room Audio Platform]] · [[Flow Catalogue]]
+[Follow-Me Audio](../../03%20Systems/Audio/Follow-Me%20Audio.md) · [Multi-room Audio Platform](../../04%20Devices/Multi-room%20Audio%20Platform/Multi-room%20Audio%20Platform.md) · [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md)

@@ -30,7 +30,7 @@ Record the bridge model/firmware, each fixture/sensor/control, canonical room, H
 
 - Prefer stable scene names and explicit targets over toggles.
 - Do not put competing automations in Hue and Homey without documenting precedence.
-- Keep room-specific lux, transition, and vacancy behavior in [[Lighting]].
+- Keep room-specific lux, transition, and vacancy behavior in [Lighting](../../03%20Systems/Lighting/Lighting.md).
 - Test what remains functional when Homey or the internet is unavailable.
 
 ## Verification required
@@ -39,4 +39,4 @@ Exact bridge/device inventory, room assignments, scenes, network connection, and
 
 ## Related
 
-[[Lighting]] · [[ADR-002 Keep Lighting Control in the Lighting Platform]] · [[Integration Roles]]
+[Lighting](../../03%20Systems/Lighting/Lighting.md) · [ADR-002 Keep Lighting Control in the Lighting Platform](../../01%20Architecture/ADRs/ADR-002%20Keep%20Lighting%20Control%20in%20the%20Lighting%20Platform.md) · [Integration Roles](../../01%20Architecture/Integration%20Roles.md)

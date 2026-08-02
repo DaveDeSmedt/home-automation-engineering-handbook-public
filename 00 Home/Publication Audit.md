@@ -22,13 +22,13 @@ Confirm that this branch is safe and coherent enough for editorial review as a p
 | Named hardware inventory and model references | Replaced with functional roles |
 | Exact room topology | Replaced with a generic teaching-zone model |
 | Network and security details | Excluded by policy and text audit |
-| Tested versus proposed behaviour | Defined by [[Verification Standards]] and used throughout |
-| Reader navigation | Rebuilt around [[Start Here]], [[Index]] and README |
-| Source transparency | [[Bibliography]] added; unsupported capabilities remain unclaimed |
+| Tested versus proposed behaviour | Defined by [Verification Standards](../06%20Standards/Verification%20Standards.md) and used throughout |
+| Reader navigation | Rebuilt around [Start Here](Start%20Here.md), [Index](Index.md) and README |
+| Source transparency | [Bibliography](Bibliography.md) added; unsupported capabilities remain unclaimed |
 
 ## Required reviewer checks
 
-- [ ] Read [[Publication Scope and Privacy]] and confirm no detail should return to the public edition.
+- [ ] Read [Publication Scope and Privacy](Publication%20Scope%20and%20Privacy.md) and confirm no detail should return to the public edition.
 - [ ] Search the branch for personal names, addresses, credentials, serial numbers and images.
 - [ ] Test internal links and Mermaid rendering in Obsidian.
 - [ ] Verify Homey-specific statements against current official documentation.

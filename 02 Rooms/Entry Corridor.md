@@ -12,7 +12,7 @@ tags: [room, hallway, transition]
 
 ## Role
 
-Primary junction at the front door. It connects bidirectionally to [[Guest WC]], [[Kitchen]], and [[Transition Corridor]].
+Primary junction at the front door. It connects bidirectionally to [Guest WC](Guest%20WC.md), [Kitchen](Kitchen.md), and [Transition Corridor](Transition%20Corridor.md).
 
 ## Coverage
 
@@ -31,4 +31,4 @@ Door contact, lighting, sensor model/position, coverage, vacancy delay, and noti
 
 ## Related
 
-[[Transition Corridor]] · [[Presence Intelligence]] · [[Zone Design]]
+[Transition Corridor](Transition%20Corridor.md) · [Presence Intelligence](../03%20Systems/Presence/Presence%20Intelligence.md) · [Zone Design](Zone%20Design.md)

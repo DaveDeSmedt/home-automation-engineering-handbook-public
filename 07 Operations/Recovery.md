@@ -39,4 +39,4 @@ Avoid history surgery in GitHub Desktop unless a backup and explicit instruction
 
 ## Related
 
-[[Backups]] · [[Troubleshooting]] · [[Using This Book in Obsidian]]
+[Backups](Backups.md) · [Troubleshooting](Troubleshooting.md) · [Using This Book in Obsidian](../00%20Home/Using%20This%20Book%20in%20Obsidian.md)

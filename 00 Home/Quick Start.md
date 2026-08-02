@@ -12,11 +12,11 @@ tags: [quick-start, reader-guide]
 
 ## Read in ten minutes
 
-1. Read [[Preface]].
-2. Read the first sections of [[Stateful Automation Architecture]].
-3. Pick one service in [[System Index]].
-4. Use [[Advanced Flows]] to build one small, reversible automation.
-5. Use [[Verification Standards]] to test it before calling it reliable.
+1. Read [Preface](Preface.md).
+2. Read the first sections of [Stateful Automation Architecture](../01%20Architecture/Stateful%20Automation%20Architecture.md).
+3. Pick one service in [System Index](../03%20Systems/System%20Index.md).
+4. Use [Advanced Flows](../05%20Homey/Advanced%20Flows/Advanced%20Flows.md) to build one small, reversible automation.
+5. Use [Verification Standards](../06%20Standards/Verification%20Standards.md) to test it before calling it reliable.
 
 ## A safe first exercise
 
