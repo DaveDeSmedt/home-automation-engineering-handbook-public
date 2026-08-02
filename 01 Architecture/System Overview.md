@@ -12,7 +12,7 @@ tags: [architecture, overview, homey]
 
 ## Purpose
 
-The installation is a residential automation platform centered on automation controller. It combines vendor-native device control with cross-system logic for lighting, presence, energy, audio, climate, security, and notifications.
+This public reference architecture is centered on **Homey Pro**. It combines vendor-native device control with cross-system logic for lighting, presence, energy, audio, climate, security, and notifications. It is illustrative—not a record of a live installation.
 
 ## Responsibility boundaries
 
@@ -20,31 +20,31 @@ The installation is a residential automation platform centered on automation con
 |---|---|
 | Physical installation | Safe electrical, network, sensor, and device installation |
 | Native platforms | Device transport, local controls, firmware, and vendor-specific safety |
-| automation controller | Cross-system decisions, variables, sequences, notifications, and user-facing automation |
+| Homey Pro | Cross-system decisions, variables, sequences, notifications, and user-facing automation |
 | Handbook | Design intent, evidence, dependencies, operations, and change history |
 
 ```mermaid
 flowchart TD
-    Input[Presence, energy, time, manual input] --> Homey[automation controller]
-    Homey --> Hue[lighting platform]
-    Homey --> multi-room audio platform[multi-room audio platform]
-    Homey --> Eco[EcoFlow]
-    Homey --> Notify[Notifications]
-    Hue --> Lights[Lighting devices]
-    multi-room audio platform --> Speakers[multi-room audio platform rooms]
-    Eco --> Battery[Battery storage]
-    HW[HomeWizard telemetry] --> Homey
-    Switch[presence-sensor platform presence] --> Homey
+    inputs[Presence, energy, time and manual input] --> homey[Homey Pro]
+    homey --> lighting[Lighting platform]
+    homey --> audio[Multi-room audio platform]
+    homey --> energy[Energy platform]
+    homey --> notifications[Notifications]
+    lighting --> lights[Lighting devices]
+    audio --> speakers[Audio rooms]
+    energy --> battery[Battery storage]
+    metering[Energy telemetry] --> homey
+    presence[Presence sensors] --> homey
 ```
 
 ## Confirmed platform baseline
 
-- automation controller provides orchestration.
+- Homey Pro provides orchestration.
 - lighting platform provides the lighting domain.
 - presence-sensor devices provide presence inputs in confirmed rooms.
-- EcoFlow and HomeWizard provide storage and energy telemetry contexts.
-- multi-room audio platform provides the principal multi-room audio domain; independent audio endpoint in the Lounge Area is a separate audio domain.
-- A Electric Vehicle creates an EV charging use case for the energy strategy.
+- Energy platforms provide storage and energy-telemetry contexts.
+- A multi-room audio platform provides the principal audio domain; independent endpoints can remain separate audio domains.
+- An electric vehicle creates an EV-charging use case for the energy strategy.
 
 ## Design priorities
 
