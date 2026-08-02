@@ -1,6 +1,6 @@
 # Building a Stateful Smart Home
 
-## Engineering Reliable Home Automation with automation controller
+## Engineering Reliable Home Automation with Homey Pro
 
 **Public edition:** `v1.2.0-rc.1`
 **Format:** Obsidian-compatible Markdown
@@ -8,7 +8,9 @@
 
 This book explains how to design reliable, understandable home automation around **state**: the durable facts that let an automation reason about what is already true, rather than merely reacting to the last sensor event.
 
-It is written for curious homeowners and integrators using automation controller. It does not require a programming background. Examples use a deliberately generic reference home and are labelled as **tested**, **pattern**, or **proposed** so a reader can distinguish evidence from an idea.
+It is written for curious homeowners and integrators using **Homey Pro**. It does not require a programming background. Homey Pro is the practical orchestration example; the engineering principles also transfer to other platforms. This is an independent community resource, not affiliated with or endorsed by Homey.
+
+Examples use a deliberately generic reference home and are labelled as **tested**, **pattern**, or **proposed** so a reader can distinguish evidence from an idea.
 
 > [!warning] Public-edition boundary
 > This edition contains no owner names, addresses, network identifiers, floor plans, credentials, serial numbers, security layouts, or operational device inventory. Zone names and integration roles are illustrative. It is a book, not a deployment record.
@@ -19,6 +21,8 @@ It is written for curious homeowners and integrators using automation controller
 |---|---|
 | Understand the core idea | [Preface](00%20Home/Preface.md) → [Stateful Automation Architecture](01%20Architecture/Stateful%20Automation%20Architecture.md) |
 | Build a dependable first flow | [Advanced Flows](05%20Homey/Advanced%20Flows/Advanced%20Flows.md) → [Flow Catalogue](05%20Homey/Flow%20Catalogue.md) |
+| Start with Homey Pro | [Homey Pro quick path](examples/README.md#homey-pro-quick-path) → [variable template](examples/variables/variable-template.md) → [flow blueprint](examples/flows/arrival-lighting-blueprint.md) |
+| Try safe, anonymised examples | [Examples guide](examples/README.md) → [HomeyScript example](examples/homeyscript/occupancy-lighting.js) → [acceptance checklist](examples/acceptance-tests/occupancy-lighting-checklist.md) |
 | Design lighting, presence, or audio | [System Index](03%20Systems/System%20Index.md) |
 | Avoid unsafe or misleading claims | [Verification Standards](06%20Standards/Verification%20Standards.md) |
 | Maintain an installation over time | [Operations](07%20Operations/Maintenance.md) |
@@ -75,6 +79,11 @@ Open the repository folder as a vault, then begin with [Start Here](00%20Home/St
 - [Index](00%20Home/Index.md)
 - [Release Notes](00%20Home/Release%20Notes.md)
 
+## Examples and contribution
+
+- [Safe examples and Homey Pro quick path](examples/README.md)
+- [Reader and contributor guide](CONTRIBUTING.md)
+
 ## Licence and attribution
 
-This release candidate does not include a licence grant. Review the content, third-party names, diagrams and any future assets before choosing a public licence or publishing the repository.
+The handbook and accompanying documentation are licensed under [CC BY-SA 4.0](LICENSE.md). The runnable code in [`examples/`](examples/) is licensed separately under [MIT](examples/LICENSE). Third-party trademarks remain the property of their respective owners.
