@@ -1,0 +1,37 @@
+---
+title: Utility Area
+type: room
+status: proposed
+revision: 2.0
+audience: public
+last-reviewed: 2026-07-11
+tags: [room, utility, energy, climate]
+---
+
+# Utility Area
+
+## Role
+
+A service/utility area associated in earlier notes with energy storage and humidity considerations. Its route from the main reference home is not documented in the supplied topology.
+
+## Known association
+
+- The two [[Residential Battery System]] units were previously recorded as located in the Utility Area; physical location should be reconfirmed.
+
+## Requirements
+
+- Maintain safe access and manual lighting.
+- Monitor humidity/temperature only with verified sensors and limits.
+- Treat battery installation, ventilation, clearance, and electrical work according to manufacturer and qualified-installer requirements.
+- Route critical leak, smoke, temperature, or battery alerts without notification spam.
+
+## Verification required
+
+- Exact equipment and location.
+- Network coverage and power path.
+- Climate, leak, smoke, and access sensors.
+- Maintenance clearance and emergency procedure.
+
+## Related
+
+[[Energy Management]] · [[Climate]] · [[Security]] · [[Maintenance]]

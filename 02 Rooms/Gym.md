@@ -1,0 +1,29 @@
+---
+title: Gym
+type: room
+status: proposed
+revision: 1.0
+audience: public
+last-reviewed: 2026-07-10
+tags: [room, exercise, multiroom-audio, presence]
+---
+
+# Gym
+
+## Role
+
+A destination room with a confirmed multi-room audio platform endpoint and planned presence sensing. Its adjacency to the documented apartment routes has not been confirmed.
+
+## Requirements
+
+- Audio may use a room-specific volume policy.
+- Presence must tolerate low-motion exercise/rest periods without generating stale occupancy after departure.
+- Lighting and climate behavior should be tied to verified equipment and safety needs.
+
+## Verification required
+
+Physical route, sensor placement/model, lighting, ventilation/temperature, multi-room audio platform model, manual controls, and emergency considerations.
+
+## Related
+
+[[Audio]] · [[Presence Intelligence]] · [[Climate]]
