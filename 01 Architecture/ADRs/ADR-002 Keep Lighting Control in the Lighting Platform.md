@@ -12,7 +12,7 @@ tags: [adr, hue, lighting]
 
 ## Context
 
-Lighting needs predictable scenes, direct manual operation, and integration with Homey presence/time logic. lighting platform is the established lighting platform in the home.
+Lighting needs predictable scenes, direct manual operation, and integration with Homey presence/time logic. The lighting platform is the established lighting platform in the home.
 
 ## Decision
 

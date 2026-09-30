@@ -40,7 +40,7 @@ flowchart TD
 ## Confirmed platform baseline
 
 - Homey Pro provides orchestration.
-- lighting platform provides the lighting domain.
+- A lighting platform provides the lighting domain.
 - presence-sensor devices provide presence inputs in confirmed rooms.
 - Energy platforms provide storage and energy-telemetry contexts.
 - A multi-room audio platform provides the principal audio domain; independent endpoints can remain separate audio domains.

@@ -19,12 +19,12 @@ The apartment is not designed as a collection of unrelated smart devices. It is 
 
 The platform combines:
 
-- automation controller for orchestration;
-- lighting platform for lighting;
+- Homey Pro for orchestration;
+- a lighting platform for lighting;
 - presence-sensor platform for presence detection;
 - EcoFlow for battery storage;
 - HomeWizard for energy telemetry;
-- multi-room audio platform for multi-room audio;
+- a multi-room audio platform for multi-room audio;
 - independent audio endpoint for the Lounge Area audio zone;
 - Tesla and Alfen for electric-vehicle charging;
 - Synology for network infrastructure;
@@ -39,11 +39,11 @@ graph TD
     Occupants[Occupants]
     Home[Physical Apartment]
     Sensors[Sensors and Telemetry]
-    Homey[automation controller Orchestration]
-    Lighting[lighting platform Lighting]
+    Homey[Homey Pro orchestration]
+    Lighting[Lighting platform]
     Presence[presence-sensor platform Presence]
     Energy[EcoFlow and HomeWizard]
-    Audio[multi-room audio platform and independent audio endpoint Audio]
+    Audio[Multi-room audio platform and independent endpoints]
     Climate[Heat Pump and Climate]
     Security[Security and Notifications]
     EV[Tesla and Alfen Charging]
@@ -68,7 +68,7 @@ graph TD
 
 The platform uses Homey as the coordination layer, but it does not assume that Homey should replace the native intelligence of every subsystem.
 
-lighting platform remains responsible for reliable light control. EcoFlow remains responsible for battery protection and its internal operating logic. multi-room audio platform remains responsible for audio playback and grouping. Homey coordinates these systems based on context.
+The lighting platform remains responsible for reliable light control. EcoFlow remains responsible for battery protection and its internal operating logic. The multi-room audio platform remains responsible for audio playback and grouping. Homey coordinates these systems based on context.
 
 ## 3. Architectural Layers
 
@@ -114,7 +114,7 @@ Typical capabilities include:
 - presence detected;
 - lux value changed;
 - speaker is playing;
-- join or leave a multi-room audio platform group;
+- join or leave a multi-room audio group;
 - grid import exceeds a threshold;
 - battery reserve changed;
 - vehicle charging detected.
@@ -146,7 +146,7 @@ Examples:
 
 - presence plus lux controls lighting;
 - EV charging detection changes battery reserve;
-- destination-room presence transfers multi-room audio platform playback;
+- destination-room presence transfers multi-room audio playback;
 - humidity thresholds trigger climate or ventilation actions.
 
 ### Layer 6: Human experience
@@ -165,7 +165,7 @@ The desired experience is:
 
 A clear division of responsibility prevents overlapping logic and unpredictable behaviour.
 
-### automation controller
+### Homey Pro
 
 Homey is the cross-system automation brain.
 
@@ -235,7 +235,7 @@ Responsibilities:
 
 ### multi-room audio platform
 
-multi-room audio platform is the primary multi-room audio platform.
+The multi-room audio platform is the primary audio domain.
 
 Responsibilities:
 
@@ -243,15 +243,15 @@ Responsibilities:
 - room grouping;
 - stereo pairing;
 - volume;
-- synchronisation between multi-room audio platform rooms.
+- synchronisation between audio rooms.
 
-Homey determines which multi-room audio platform room should participate in the current session.
+Homey determines which audio room should participate in the current session.
 
 ### independent audio endpoint
 
 The independent audio endpoint Lounge speaker is a separate audio domain.
 
-It should not be assumed to support seamless grouping with multi-room audio platform. Cross-platform audio behaviour must therefore be designed separately from the multi-room audio platform follow-me domain.
+It should not be assumed to support seamless grouping with the multi-room audio platform. Cross-platform audio behaviour must therefore be designed separately from the multi-room audio platform follow-me domain.
 
 ### Synology network
 
@@ -301,7 +301,7 @@ Example: follow-me audio
 1. Bathroom presence is detected.
 2. Homey confirms that follow-me mode is enabled.
 3. Homey checks that the current audio room is Office.
-4. Bathroom multi-room audio platform joins the Office group.
+4. The Bathroom audio endpoint joins the Office group.
 5. After a short overlap, Office leaves the group.
 6. `Audio_Current_Room` becomes Bathroom.
 
@@ -384,7 +384,7 @@ Expected behaviour:
 Expected behaviour:
 
 - Hue remains usable through native controls;
-- multi-room audio platform remains usable through the multi-room audio platform app;
+- multi-room audio remains usable through its own app;
 - EcoFlow continues its internal operating mode;
 - Tesla and Alfen remain independently operable;
 - automations pause, but the home remains usable.
@@ -498,7 +498,7 @@ The platform can evolve in several directions.
 
 ### Short term
 
-- complete the first multi-room audio platform follow-me routes;
+- complete the first multi-room audio follow-me routes;
 - finish presence coverage in Kitchen and Gym;
 - add the Front Hallway presence sensor;
 - stabilise room lighting thresholds;
@@ -524,6 +524,6 @@ The platform can evolve in several directions.
 
 The Home Intelligence Platform is not defined by a single hub or brand. It is defined by the cooperation between the physical apartment, specialised device platforms, explicit system state and a central orchestration layer.
 
-automation controller coordinates the system, but the architecture remains distributed. Hue controls lighting. presence-sensor platform detects presence. EcoFlow manages stored energy. HomeWizard measures power. multi-room audio platform manages synchronous audio. Synology keeps the network available.
+Homey Pro coordinates the system, but the architecture remains distributed. Hue controls lighting. The presence-sensor platform detects presence. EcoFlow manages stored energy. HomeWizard measures power. The multi-room audio platform manages synchronous audio. Synology keeps the network available.
 
 The platform succeeds when these components disappear into the background and the apartment behaves as one coherent system.

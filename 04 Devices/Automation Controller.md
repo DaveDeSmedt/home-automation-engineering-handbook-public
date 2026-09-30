@@ -1,5 +1,5 @@
 ---
-title: automation controller
+title: Homey Pro
 type: device
 status: pattern
 revision: 2.0
@@ -8,11 +8,11 @@ last-reviewed: 2026-07-11
 tags: [device, homey, orchestration]
 ---
 
-# automation controller
+# Homey Pro
 
 ## Role
 
-automation controller is the central cross-system orchestration platform. It evaluates triggers and conditions, owns selected logical variables, coordinates actions across apps, and produces notifications.
+Homey Pro is the central cross-system orchestration platform. It evaluates triggers and conditions, owns selected logical variables, coordinates actions across apps, and produces notifications.
 
 ## Boundaries
 
@@ -35,8 +35,8 @@ Homey does not replace electrical safety, certified alarms, native battery prote
 
 ## Verification required
 
-Exact automation controller generation, software version, network connection, backup configuration, app list, and observed internet-outage behavior.
+Exact Homey Pro generation, software version, network connection, backup configuration, app list, and observed internet-outage behavior.
 
 ## Related
 
-[Advanced Flows](../05%20Homey/Advanced%20Flows/Advanced%20Flows.md) · [Variables](../05%20Homey/Variables/Variables.md) · [Homey Apps](../05%20Homey/Apps/Homey%20Apps.md) · [ADR-001 automation controller as Central Brain](../01%20Architecture/ADRs/ADR-001%20Automation%20Controller%20as%20Central%20Brain.md)
+[Advanced Flows](../05%20Homey/Advanced%20Flows/Advanced%20Flows.md) · [Variables](../05%20Homey/Variables/Variables.md) · [Homey Apps](../05%20Homey/Apps/Homey%20Apps.md) · [ADR-001 Homey Pro as Central Brain](../01%20Architecture/ADRs/ADR-001%20Automation%20Controller%20as%20Central%20Brain.md)

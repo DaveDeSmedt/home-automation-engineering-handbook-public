@@ -28,7 +28,7 @@ The book uses generic terms such as **Study**, **Transition Corridor**, **lighti
 
 ## What remains deliberately specific
 
-automation controller is named because it is the book's orchestration context. References to external product categories or vendor documentation are contextual and not endorsements. Readers must check their own hardware, app versions, local laws and manufacturer instructions.
+Homey Pro is named because it is the book's orchestration context. References to external product categories or vendor documentation are contextual and not endorsements. Readers must check their own hardware, app versions, local laws and manufacturer instructions.
 
 ## Safety boundary
 

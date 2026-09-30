@@ -662,7 +662,7 @@ P…3331 tokens truncated…Climate]
 
 The platform uses Homey as the coordination layer, but it does not assume that Homey should replace the native intelligence of every subsystem.
 
-lighting platform remains responsible for reliable light control. residential battery platform remains responsible for battery protection and its internal operating logic. multi-room audio remains responsible for audio playback and grouping. Homey coordinates these systems based on context.
+The lighting platform remains responsible for reliable light control. The residential battery platform remains responsible for battery protection and its internal operating logic. multi-room audio remains responsible for audio playback and grouping. Homey coordinates these systems based on context.
 
 ## 3. Architectural Layers
 
@@ -804,7 +804,7 @@ Presence sensors are not treated as automation brains. They are evidence used by
 
 ### residential battery platform
 
-residential battery platform is the energy-storage subsystem.
+The residential battery platform is the energy-storage subsystem.
 
 Responsibilities:
 
@@ -1118,6 +1118,6 @@ The platform can evolve in several directions.
 
 The Home Intelligence Platform is not defined by a single hub or brand. It is defined by the cooperation between the physical reference home, specialised device platforms, explicit system state and a central orchestration layer.
 
-The automation controller coordinates the system, while native platforms retain their domain responsibilities for lighting, presence, energy, metering, audio, and networking.
+The Homey Pro coordinates the system, while native platforms retain their domain responsibilities for lighting, presence, energy, metering, audio, and networking.
 
 The platform succeeds when these components disappear into the background and the reference home behaves as one coherent system.

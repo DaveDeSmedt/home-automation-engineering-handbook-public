@@ -2,19 +2,25 @@
 title: Release Notes
 type: release
 status: reference
-revision: 1.1
+revision: 1.3
 audience: public
-last-reviewed: 2026-08-02
+last-reviewed: 2026-09-30
 tags: [release, public-edition, rc]
 ---
 
-# Release Notes — v1.2.0-rc.1
+# Release Notes — v1.3.0
+
+## What is new in v1.3.0
+
+This edition brings the book in line with the running reference home after a full review in September 2026. New: [Lessons from a Live Audit](../07%20Operations/Lessons%20from%20a%20Live%20Audit.md), and reference-home patterns in [Lighting](../03%20Systems/Lighting/Lighting.md), [Climate](../03%20Systems/Climate/Climate.md), [Coverings](../03%20Systems/Coverings/Coverings.md), [Energy Management](../03%20Systems/Energy/Energy%20Management.md) and [Variables](../05%20Homey/Variables/Variables.md).
+
+# Earlier release — v1.2.0-rc.1
 
 ## Release intent
 
 This release candidate transforms a private operational handbook into a public educational book:
 
-> **Building a Stateful Smart Home: Engineering Reliable Home Automation with automation controller**
+> **Building a Stateful Smart Home: Engineering Reliable Home Automation with Homey Pro**
 
 It preserves engineering principles, failure patterns, decision records, worked examples and operational thinking. It removes or generalizes information that could identify people, a property or its security posture.
 

@@ -2,9 +2,9 @@
 title: Coverings
 type: system
 status: pattern
-revision: 1.0
+revision: 1.1
 audience: public
-last-reviewed: 2026-08-02
+last-reviewed: 2026-09-30
 tags: [system, coverings, privacy]
 ---
 
@@ -25,6 +25,17 @@ policy conservative when inputs are stale or ambiguous.
   as a tilt or position target.
 - Prefer explicit open/close/position commands, provide manual override, and
   reconcile after failed actions.
+
+## Pattern: request queue with a script that never fails the run
+
+Triggers (sunrise, midday, sunset) do not move coverings directly. They write a request (`OPEN_DAY`, `OPEN_BEDROOM`, `CLOSE_ALL`) to one variable. A single handler executes it and always resets the variable to `IDLE`, on success and on error.
+
+The executing script checks capabilities, paces commands between devices, retries once, and **never throws**: an unresponsive device is logged and skipped. In the reference home, one blind that had just been moved by hand used to fail the whole run, which left the request stuck and silently blocked the next scheduled run.
+
+Two lessons from review:
+
+- A time trigger with a state condition ("open at sunrise *if* the house is awake") only checks at that instant. Add a trigger on the house waking up so late mornings are not missed.
+- Route every trigger through the queue, including the first one you built.
 
 ## Status
 

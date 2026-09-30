@@ -1,10 +1,10 @@
 ---
 title: Climate
 type: system
-status: proposed
-revision: 2.0
+status: pattern
+revision: 2.1
 audience: public
-last-reviewed: 2026-07-10
+last-reviewed: 2026-09-30
 tags: [system, climate, humidity, ventilation]
 ---
 
@@ -41,6 +41,19 @@ Earlier project context mentions humidity, ventilation, basement conditions, hea
 - Distinguish sensor fault from valid extreme readings.
 - Do not heat/cool a room solely from a transient presence event.
 - Record units and calibration assumptions.
+
+## Pattern: CO2-led ventilation with house-state fallback
+
+In daily use in the reference home with a heat-recovery ventilation unit and a CO2 sensor in the bedroom.
+
+| Situation | Fan mode |
+|---|---|
+| CO2 above 1000 ppm | High |
+| CO2 below 800 ppm, house awake | Medium |
+| CO2 below 800 ppm, house asleep | Night / auto |
+| CO2 below 800 ppm, house away | Low |
+
+The gap between 800 and 1000 ppm is the hysteresis that stops the fan from hunting. One rule takes priority: **while CO2 is high, the fan stays high.** The robust implementation routes every trigger (CO2 rising, CO2 falling, house state changing) through one decision point that checks CO2 first. Separate event paths that each set a mode can let a state change quietly overrule high CO2.
 
 ## Related
 

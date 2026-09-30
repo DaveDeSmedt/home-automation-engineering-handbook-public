@@ -2,9 +2,9 @@
 title: Energy Management
 type: system
 status: partially verified
-revision: 2.0
+revision: 2.1
 audience: public
-last-reviewed: 2026-07-10
+last-reviewed: 2026-09-30
 tags: [system, energy, ecoflow, homewizard, ev]
 ---
 
@@ -18,7 +18,7 @@ Use measured energy state to improve self-consumption and peak behavior without 
 
 - Two [Residential Battery System](../../04%20Devices/Residential%20Battery%20System/Residential%20Battery%20System.md) units.
 - One [Energy Metering Gateway](../../04%20Devices/Energy%20Metering%20Gateway/Energy%20Metering%20Gateway.md).
-- [automation controller](../../04%20Devices/Automation%20Controller.md) orchestration.
+- [Homey Pro](../../04%20Devices/Automation%20Controller.md) orchestration.
 - [Electric Vehicle](../../04%20Devices/Electric%20Vehicle/Electric%20Vehicle.md) charging context.
 - Solar generation is part of the stated strategy; inverter/panel details are not inventoried.
 
@@ -42,7 +42,7 @@ EcoFlow retains native battery management and safety. HomeWizard supplies verifi
 |---|---|---|
 | Observe grid import/export | Partially verified | Exact HomeWizard signals and units |
 | Favor solar self-consumption | Architecture | Native EcoFlow settings and observed behavior |
-| Prevent undesirable discharge during EV charging | Proposed/partially verified | Reliable charging signal, exact reserve card, restore test |
+| Prevent undesirable discharge during EV charging | In daily use in the reference home | Restore behaviour observed; release timing still being tuned |
 | Peak shaving | Proposed | Import limits, battery constraints, acceptance data |
 | Backup reserve | Partially verified concept | Supported range, normal value, temporary value, recovery |
 
@@ -73,6 +73,12 @@ raise a supported storage reserve to avoid discharge into a vehicle. Save the
 previous setting first, restore or reconcile when charging ends, and include a
 timeout plus restart recovery. Do not assume a grouped command controls every
 battery: verify command scope and native-platform behaviour for the installation.
+
+## Reference-home implementation
+
+Protect: grid import above 3 kW for two minutes, the storage is discharging, and the reserve is below the protection level → raise the backup reserve on every unit. Release: grid import below 1 kW for a sustained period → restore the normal reserve.
+
+Two practical notes. Units installed in parallel that behave as one virtual battery are always set together. And this installation infers charging from grid import rather than reading the vehicle; that is the trade-off the safety rule above warns about, accepted here because a false positive only costs a little stored energy.
 
 ## Related
 

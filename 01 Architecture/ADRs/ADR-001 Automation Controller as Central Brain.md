@@ -1,5 +1,5 @@
 ---
-title: ADR-001 automation controller as Central Brain
+title: ADR-001 Homey Pro as Central Brain
 type: adr
 status: pattern
 revision: 2.0
@@ -8,7 +8,7 @@ last-reviewed: 2026-07-11
 tags: [adr, homey, orchestration]
 ---
 
-# ADR-001 — automation controller as Central Brain
+# ADR-001 — Homey Pro as Central Brain
 
 ## Context
 
@@ -16,7 +16,7 @@ The home combines lighting, presence, energy, audio, and other vendor ecosystems
 
 ## Decision
 
-automation controller owns cross-system intent, variables, sequencing, and notifications. Native platforms retain device transport, hardware safety, firmware, and direct manual control.
+Homey Pro owns cross-system intent, variables, sequencing, and notifications. Native platforms retain device transport, hardware safety, firmware, and direct manual control.
 
 ## Rationale
 
@@ -39,4 +39,4 @@ automation controller owns cross-system intent, variables, sequencing, and notif
 
 ## Related
 
-[automation controller](../../04%20Devices/Automation%20Controller.md) · [Advanced Flows](../../05%20Homey/Advanced%20Flows/Advanced%20Flows.md) · [Stateful Automation Architecture](../Stateful%20Automation%20Architecture.md)
+[Homey Pro](../../04%20Devices/Automation%20Controller.md) · [Advanced Flows](../../05%20Homey/Advanced%20Flows/Advanced%20Flows.md) · [Stateful Automation Architecture](../Stateful%20Automation%20Architecture.md)

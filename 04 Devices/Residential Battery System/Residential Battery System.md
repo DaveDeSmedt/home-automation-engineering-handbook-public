@@ -16,7 +16,7 @@ Two units are recorded for residential energy storage. Earlier notes place them 
 
 ## Responsibility
 
-residential battery platform retains native battery control, protection, and device-specific constraints. Homey may read telemetry and apply only supported, reversible high-level actions.
+The residential battery platform retains native battery control, protection, and device-specific constraints. Homey may read telemetry and apply only supported, reversible high-level actions.
 
 ## Required inventory
 

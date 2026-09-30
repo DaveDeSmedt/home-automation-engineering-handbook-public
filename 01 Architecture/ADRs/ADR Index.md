@@ -14,7 +14,7 @@ An ADR captures a design decision, why it was made, what was considered and what
 
 | ADR | Decision pattern | Status |
 |---|---|---|
-| [ADR-001 automation controller as Central Brain](ADR-001%20Automation%20Controller%20as%20Central%20Brain.md) | Use automation controller for cross-system orchestration while retaining native safety controls. | Pattern |
+| [ADR-001 Homey Pro as Central Brain](ADR-001%20Automation%20Controller%20as%20Central%20Brain.md) | Use Homey Pro for cross-system orchestration while retaining native safety controls. | Pattern |
 | [ADR-002 Keep Lighting Control in the Lighting Platform](ADR-002%20Keep%20Lighting%20Control%20in%20the%20Lighting%20Platform.md) | Keep lighting transport and manual controls in the lighting platform. | Pattern |
 | [ADR-003 Use Dedicated Presence Inputs](ADR-003%20Use%20Dedicated%20Presence%20Inputs.md) | Treat presence as an input to occupancy logic, not proof of identity. | Pattern |
 | [ADR-004 Retain Native Battery Safety Controls](ADR-004%20Retain%20Native%20Battery%20Safety%20Controls.md) | Preserve native battery-management safeguards. | Pattern |

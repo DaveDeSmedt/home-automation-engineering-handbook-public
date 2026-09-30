@@ -12,7 +12,7 @@ tags: [device, hue, lighting]
 
 ## Role
 
-lighting platform is the principal lighting domain. Homey selects room intent; Hue executes scenes or device targets and should retain native/manual control where installed.
+The lighting platform is the principal lighting domain. Homey selects room intent; Hue executes scenes or device targets and should retain native/manual control where installed.
 
 ```mermaid
 flowchart LR

@@ -14,7 +14,7 @@ A public handbook should describe what each component is responsible for, not di
 
 | Role | Responsibility | Homey boundary |
 |---|---|---|
-| [automation controller](../04%20Devices/Automation%20Controller.md) | Cross-system intent, state, sequencing and notifications | Orchestrates; does not replace device safety |
+| [Homey Pro](../04%20Devices/Automation%20Controller.md) | Cross-system intent, state, sequencing and notifications | Orchestrates; does not replace device safety |
 | [Lighting Platform](../04%20Devices/Lighting%20Platform/Lighting%20Platform.md) | Scenes, dimming, lighting transport and manual controls | Receives intent or commands |
 | [Presence Sensor Platform](../04%20Devices/Presence%20Sensor%20Platform/Presence%20Sensor%20Platform.md) | Observes motion, presence or occupancy signals | Supplies inputs; does not establish identity |
 | [Residential Battery System](../04%20Devices/Residential%20Battery%20System/Residential%20Battery%20System.md) | Battery protection and native energy management | Exposes safe, verified control points only |

@@ -12,7 +12,7 @@ tags: [integrations, index, public-edition]
 
 | Integration role | Read this page for |
 |---|---|
-| [automation controller](Automation%20Controller.md) | Orchestration, flows, variables and scripts |
+| [Homey Pro](Automation%20Controller.md) | Orchestration, flows, variables and scripts |
 | [Lighting Platform](Lighting%20Platform/Lighting%20Platform.md) | Keeping device-native lighting control intact |
 | [Presence Sensor Platform](Presence%20Sensor%20Platform/Presence%20Sensor%20Platform.md) | Turning sensor events into useful occupancy evidence |
 | [Residential Battery System](Residential%20Battery%20System/Residential%20Battery%20System.md) | Energy safety boundaries and native control |

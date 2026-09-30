@@ -2,9 +2,9 @@
 
 ## Engineering Reliable Home Automation with Homey Pro
 
-**Public edition:** `v1.2.0-rc.1`
+**Public edition:** `v1.3.0`
 **Format:** Obsidian-compatible Markdown
-**Status:** v1.2.0-rc.1 release candidate — editorial review requested
+**Status:** v1.3.0 — updated from a full review of the running reference home (September 2026)
 
 This book explains how to design reliable, understandable home automation around **state**: the durable facts that let an automation reason about what is already true, rather than merely reacting to the last sensor event.
 
@@ -14,6 +14,10 @@ Examples use a deliberately generic reference home and are labelled as **tested*
 
 > [!warning] Public-edition boundary
 > This edition contains no owner names, addresses, network identifiers, floor plans, credentials, serial numbers, security layouts, or operational device inventory. Zone names and integration roles are illustrative. It is a book, not a deployment record.
+
+## How this book is maintained
+
+The reference home is built and maintained with AI as an engineering partner. In September 2026 an AI assistant connected to Homey Pro through Homey's MCP server audited every flow in the running system against this book; the owner decided what to fix and what was deliberate. What that review found is in [Lessons from a Live Audit](07%20Operations/Lessons%20from%20a%20Live%20Audit.md).
 
 ## Start reading
 

@@ -28,7 +28,7 @@ tags: [index, navigation, public-edition]
 
 ## Part IV — Integration and Homey implementation
 
-[Integration Index](../04%20Devices/Integration%20Index.md) · [automation controller](../04%20Devices/Automation%20Controller.md) · [Lighting Platform](../04%20Devices/Lighting%20Platform/Lighting%20Platform.md) · [Presence Sensor Platform](../04%20Devices/Presence%20Sensor%20Platform/Presence%20Sensor%20Platform.md) · [Residential Battery System](../04%20Devices/Residential%20Battery%20System/Residential%20Battery%20System.md) · [Energy Metering Gateway](../04%20Devices/Energy%20Metering%20Gateway/Energy%20Metering%20Gateway.md) · [Multi-room Audio Platform](../04%20Devices/Multi-room%20Audio%20Platform/Multi-room%20Audio%20Platform.md) · [Independent Audio Endpoint](../04%20Devices/Independent%20Audio%20Endpoint/Independent%20Audio%20Endpoint.md) · [Electric Vehicle](../04%20Devices/Electric%20Vehicle/Electric%20Vehicle.md) · [Home Network Gateway](../04%20Devices/Home%20Network%20Gateway/Home%20Network%20Gateway.md)
+[Integration Index](../04%20Devices/Integration%20Index.md) · [Homey Pro](../04%20Devices/Automation%20Controller.md) · [Lighting Platform](../04%20Devices/Lighting%20Platform/Lighting%20Platform.md) · [Presence Sensor Platform](../04%20Devices/Presence%20Sensor%20Platform/Presence%20Sensor%20Platform.md) · [Residential Battery System](../04%20Devices/Residential%20Battery%20System/Residential%20Battery%20System.md) · [Energy Metering Gateway](../04%20Devices/Energy%20Metering%20Gateway/Energy%20Metering%20Gateway.md) · [Multi-room Audio Platform](../04%20Devices/Multi-room%20Audio%20Platform/Multi-room%20Audio%20Platform.md) · [Independent Audio Endpoint](../04%20Devices/Independent%20Audio%20Endpoint/Independent%20Audio%20Endpoint.md) · [Electric Vehicle](../04%20Devices/Electric%20Vehicle/Electric%20Vehicle.md) · [Home Network Gateway](../04%20Devices/Home%20Network%20Gateway/Home%20Network%20Gateway.md)
 
 [Advanced Flows](../05%20Homey/Advanced%20Flows/Advanced%20Flows.md) · [Flow Catalogue](../05%20Homey/Flow%20Catalogue.md) · [Variables](../05%20Homey/Variables/Variables.md) · [HomeyScript](../05%20Homey/HomeyScript/HomeyScript.md) · [Homey Apps](../05%20Homey/Apps/Homey%20Apps.md)
 
@@ -36,7 +36,7 @@ tags: [index, navigation, public-edition]
 
 [Documentation Standards](../06%20Standards/Documentation%20Standards.md) · [Publication Standards](../06%20Standards/Publication%20Standards.md) · [Verification Standards](../06%20Standards/Verification%20Standards.md) · [Naming Standards](../06%20Standards/Naming%20Standards.md) · [Flow ID Standards](../06%20Standards/Flow%20ID%20Standards.md) · [Mermaid Standards](../06%20Standards/Mermaid%20Standards.md)
 
-[Maintenance](../07%20Operations/Maintenance.md) · [Backups](../07%20Operations/Backups.md) · [Recovery](../07%20Operations/Recovery.md) · [Firmware](../07%20Operations/Firmware.md) · [Troubleshooting](../07%20Operations/Troubleshooting.md) · [Roadmap](../08%20Roadmap/Roadmap.md)
+[Maintenance](../07%20Operations/Maintenance.md) · [Backups](../07%20Operations/Backups.md) · [Recovery](../07%20Operations/Recovery.md) · [Firmware](../07%20Operations/Firmware.md) · [Troubleshooting](../07%20Operations/Troubleshooting.md) · [Lessons from a Live Audit](../07%20Operations/Lessons%20from%20a%20Live%20Audit.md) · [Roadmap](../08%20Roadmap/Roadmap.md)
 
 ## Reusable templates
 

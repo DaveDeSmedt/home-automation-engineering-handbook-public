@@ -2,9 +2,9 @@
 title: Variables
 type: implementation
 status: pattern
-revision: 2.0
+revision: 2.1
 audience: public
-last-reviewed: 2026-07-11
+last-reviewed: 2026-09-30
 tags: [homey, variables, state]
 ---
 
@@ -19,6 +19,18 @@ tags: [homey, variables, state]
 | `Audio_FollowMe` | Yes/No | `Yes` | Proposed/pilot | Master enable for automatic handover |
 
 These values were agreed as the pilot design. Confirm that the variables exist in Homey before marking them `verified`.
+
+## House-context variables (reference home)
+
+| Variable | Values | Owner | Readers |
+|---|---|---|---|
+| `House_State` | `Awake`, `Sleep`, `Away`; `Unknown` only until recovery after a restart | House-state flow | Lighting, ventilation, coverings |
+| `Time_Of_Day` | `Morning`, `Day`, `Evening`, `Night` | Time-of-day flow | Lighting scenes and brightness |
+| `<Zone>_Target_Room_Light` | lux per zone, set per period | Time-of-day flow | Lighting flows |
+
+The owning flows perform no device actions; they only maintain state. After a restart the house-state flow waits briefly, then resolves `Unknown` to `Away` or `Awake` from presence.
+
+**Lesson: one vocabulary.** The reference home once had both `Home` and `Awake` meaning "someone is here". Consumers that checked only one of them silently did nothing. Keep one value per meaning and list the allowed values here.
 
 ## Naming and ownership
 

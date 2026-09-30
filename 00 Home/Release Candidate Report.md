@@ -14,7 +14,7 @@ tags: [release, rc, audit, publication]
 
 This branch converts a private operational vault into the public educational book:
 
-> **Building a Stateful Smart Home: Engineering Reliable Home Automation with automation controller**
+> **Building a Stateful Smart Home: Engineering Reliable Home Automation with Homey Pro**
 
 The private operational branch remains the source for real inventory, location, network, security and account information.
 
@@ -45,7 +45,7 @@ record.
 - Generalized device models, exact quantities, room placement and route details.
 - Replaced a real-house topology with teaching zones.
 - Omitted network identity, IP plan, credentials, serials, account details, security layout, photographs and floor plans.
-- Retained automation controller as the orchestration context and retained vendor-neutral roles only where they support the lesson.
+- Retained Homey Pro as the orchestration context and retained vendor-neutral roles only where they support the lesson.
 
 ## Validation results
 

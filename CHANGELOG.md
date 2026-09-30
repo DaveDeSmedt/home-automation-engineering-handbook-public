@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.3.0 — 2026-09-30
+
+### Added
+
+- Lessons from a Live Audit: findings from an AI-assisted review of the running reference home, and how to work with an AI on a live system.
+- Reference-home patterns for lighting (context-owned targets, scene vs intensity, override gating, multi-sensor join), CO2-led ventilation, the coverings request queue, house-context variables, and EV-charge battery protection.
+
+### Changed
+
+- Lighting, ventilation and EV-charge protection now described as in daily use in the reference home.
+- Repaired wording left behind by earlier generalisation (for example "automation controller" where Homey Pro is meant).
+
+
 ## v1.2.0-rc.1 — Public edition release candidate
 
 ### Added
@@ -23,7 +36,7 @@
 
 ### Changed
 
-- Reframed the handbook as *Building a Stateful Smart Home: Engineering Reliable Home Automation with automation controller*.
+- Reframed the handbook as *Building a Stateful Smart Home: Engineering Reliable Home Automation with Homey Pro*.
 - Generalized names, zone topology, device roles and examples.
 - Replaced owner-specific metadata with public-edition metadata.
 - Reworked navigation, index, standards, release notes and roadmap for readers rather than operators.

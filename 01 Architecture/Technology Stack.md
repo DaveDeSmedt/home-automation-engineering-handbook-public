@@ -12,7 +12,7 @@ tags: [architecture, technology, integrations]
 
 | Domain | Technology | Role | Evidence status |
 |---|---|---|---|
-| Orchestration | [automation controller](../04%20Devices/Automation%20Controller.md) | Cross-system automation | Verified |
+| Orchestration | [Homey Pro](../04%20Devices/Automation%20Controller.md) | Cross-system automation | Verified |
 | Lighting | [Lighting Platform](../04%20Devices/Lighting%20Platform/Lighting%20Platform.md) | Lighting devices and native control | Verified platform; inventory incomplete |
 | Presence | [Presence Sensor Platform](../04%20Devices/Presence%20Sensor%20Platform/Presence%20Sensor%20Platform.md) | Room/transition presence input | Confirmed locations documented |
 | Energy storage | [Residential Battery System](../04%20Devices/Residential%20Battery%20System/Residential%20Battery%20System.md) | Two battery units | Verified quantity; configuration incomplete |

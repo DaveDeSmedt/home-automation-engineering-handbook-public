@@ -2,9 +2,9 @@
 title: Lighting
 type: system
 status: pattern
-revision: 2.0
+revision: 3.0
 audience: public
-last-reviewed: 2026-07-11
+last-reviewed: 2026-09-30
 tags: [system, lighting, hue]
 ---
 
@@ -12,7 +12,7 @@ tags: [system, lighting, hue]
 
 ## Objective
 
-Provide safe, comfortable light that reacts predictably to occupancy, daylight, time, and manual intent. The confirmed platform is lighting platform; the exact fixture, scene, and threshold inventory remains incomplete.
+Provide safe, comfortable light that reacts predictably to occupancy, daylight, time, and manual intent. The lighting platform is confirmed; the exact fixture, scene, and threshold inventory remains incomplete.
 
 ## Architecture
 
@@ -55,7 +55,7 @@ Each room must record:
 
 ## Current maturity
 
-The Hue platform is confirmed, but detailed room implementation is not evidenced in this repository. Lighting flows remain `proposed` in [Flow Catalogue](../../05%20Homey/Flow%20Catalogue.md) until screenshots/exports and real-world tests are added.
+In daily use in the reference home: presence- and daylight-driven lighting covers most zones. The patterns below come from that installation. Validate thresholds and timings in your own home.
 
 ## Acceptance pattern
 
@@ -69,6 +69,28 @@ ambient light, manual override, and exceptional modes such as sleep or away.
 When daylight changes during continued occupancy, re-evaluate eligibility; do
 not infer vacancy. The choice to fade, change a scene, or wait is a local,
 tested room-policy decision.
+
+## Patterns from the reference home
+
+**Context owns the targets.** A single context flow sets a target light level (lux) per zone whenever the time-of-day period changes. Lighting flows only *read* those targets. Tuning the house then means editing one table, not dozens of flows. A target of 0 is a deliberate "no automatic light in this period".
+
+**Scene and intensity are separate layers.** A script chooses the *character* of the light (a scene per zone and period, with the Night scene forced while the house is asleep and nothing at all while it is away). Where a zone needs it, a second step sets the *intensity* from the shortfall between target and measured lux:
+
+```text
+maximum    = { Morning: 70, Day: 80, Evening: 55, Night: 20 }[period]
+shortfall  = clamp((target_lux - current_lux) / target_lux, 0, 1)
+brightness = round(3 + (maximum - 3) * shortfall)
+```
+
+Functional zones (cooking, dining) can use one fixed scene and skip the intensity layer.
+
+**Switch off with a re-check, fade only where it matters.** Vacancy starts a delay, then re-checks that the zone is still empty before acting. Zones with calculated brightness dim to a minimum, wait, then switch off; fixed-scene zones switch straight off.
+
+**Multi-sensor zones join before switching off.** When one zone is covered by several inputs (for example a presence sensor plus radar sub-zones), each input clears its own flag and the lights go off only when *all* flags are clear.
+
+**Overrides gate switch-on, never switch-off.** A one-tap dashboard override blocks automatic switch-on for a zone. Switch-off logic is never gated, so an overridden zone cannot get stuck on.
+
+**Seasonal policy is a design decision.** Disconnecting a zone's switch-on path outside the season where it is useful is legitimate, as long as it is recorded so nobody "fixes" it.
 
 ## Related
 
